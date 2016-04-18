@@ -17,42 +17,40 @@ export default class Nav extends React.Component {
   render() {
     const navStyle = {
       borderBottom: "1px solid #dddddd",
-      borderTop: "transparent",
+      borderTop: "0px",
+      marginLeft: "68px",
     }
-    return (
-      <nav class="navbar navbar-inverse" style={navStyle} role="navigation">
-            <div class="container">
+    const navContainerStyle = {
+    }
 
+    return (
+      <nav class="navbar navbar-inverse" role="navigation">
+            <div class="container" style={navContainerStyle}>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <div class="row nav navbar-nav">
-                    <div class="col-md-15 col-sm-3">
-                      <a href="#">About</a>
-                    </div>
-                    <div class="col-md-15 col-sm-3">
-                      <a href="#">About</a>
-                    </div>
-                    <div class="col-md-15 col-sm-3">
-                      <a href="#">About</a>
-                    </div>
-                    <div class="col-md-15 col-sm-3">
-                      <a href="#">About</a>
-                    </div>
-                    <div class="col-md-15 col-sm-3">
-                      <a href="#">About</a>
-                    </div>
-                  </div>
-                    /*<ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav">
                         <li>
-                            <a href="#">About</a>
+                            <a href="#">Tribunal</a>
                         </li>
                         <li>
-                            <a href="#">Services</a>
+                            <a href="#">Act</a>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#">Complaints</a>
                         </li>
-                    </ul>*/
+                        <li>
+                            <a href="#">Updates</a>
+                        </li>
+                        <li>
+                            <a href="#">Help</a>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-right" role="search">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search"/>
+                      </div>
+                    </form>
                 </div>
+
             </div>
 
         </nav>
