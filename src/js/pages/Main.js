@@ -69,7 +69,7 @@ export default class Main extends React.Component {
     }
 
     const faqColHeadingStyle = {
-      backgroundColor: "#446e9b",
+      backgroundColor: "#395c82",
       color: "#ffffff",
       borderColor: "lightgray",
       height: "2.5em",
@@ -82,6 +82,7 @@ export default class Main extends React.Component {
     const faqSpanHeadingStyle = {
       display: "inline-block",
       marginTop: "8px",
+      color: "#ffffff"
     }
 
     const linksColStyle = {
@@ -97,14 +98,20 @@ export default class Main extends React.Component {
     const newsColStyle = {
       border: "1px lightgray solid",
       paddingLeft: "10px",
-      paddingTop: "2px",
+      fontSize: "13px",
+    }
+
+    const newsHeaderColStyle = {
+      backgroundColor: "#395c82",
+      color: "#ffffff",
+      borderColor: "lightgray",
+      height: "2.5em",
     }
 
     const newsHeaderStyle = {
-      fontSize: "21px",
-      fontWeight: "300",
-      lineHeight: "24px",
-      color: "rgb(41, 47, 51)",
+      display: "inline-block",
+      marginTop: "8px",
+      color: "#ffffff"
     }
 
     const mainRowStyle = {
@@ -115,6 +122,12 @@ export default class Main extends React.Component {
       float: "none",
       display: "table-cell",
       verticalAlign: "top",
+    }
+
+    const maxHeightStyle = {
+      height: "185px",
+      maxHeight: "100%",
+      overflow: "auto",
     }
     return (
       <main>
@@ -269,7 +282,7 @@ export default class Main extends React.Component {
             <div class="col-md-6" style={faqColStyle}>
               <div class="row">
                 <div class="col-md-12" style={faqColHeadingStyle}>
-                  <span style={faqSpanHeadingStyle}>Top 5 Frequently Asked Questions</span>
+                  <h4 style={faqSpanHeadingStyle}>Top 5 Frequently Asked Questions</h4>
                 </div>
               </div>
               <div class="row">
@@ -278,9 +291,9 @@ export default class Main extends React.Component {
             </div>
             <div class="col-md-6" style={linksColStyle}>
               <div class="col-md-6">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div style={newsColStyle}>
+                <div class="row"  >
+                  <div class="col-md-12" style={maxHeightStyle}>
+                    <div class="col-md-12" style={newsHeaderColStyle}>
                       <h4 style={newsHeaderStyle}>Latest News</h4>
                     </div>
                     <div class="col-md-12" style={newsColStyle}>
@@ -292,18 +305,32 @@ export default class Main extends React.Component {
                     <div class="col-md-12" style={newsColStyle}>
                       <p>Supreme court has issued a notice on removing something. </p>
                     </div>
+                    <div class="col-md-12" style={newsColStyle}>
+                      <p>One more latest news </p>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6" style={twitterStyle}>
-                <Timeline
-                  widgetId={'722894257694969856'}
-                  options={{
-                    username: 'TwitterDev',
-                    height: '216'
-                  }}
-                  onLoad={() => console.log('Timeline is loaded!')}
-                />
+              <div class="col-md-6">
+                <div class="row"  >
+                  <div class="col-md-12" style={maxHeightStyle}>
+                    <div class="col-md-12" style={newsHeaderColStyle}>
+                      <h4 style={newsHeaderStyle}>Latest News</h4>
+                    </div>
+                    <div class="col-md-12" style={newsColStyle}>
+                      <p>This site has been made by the Justice League</p>
+                    </div>
+                    <div class="col-md-12" style={newsColStyle}>
+                      <p>Design and development are very important</p>
+                    </div>
+                    <div class="col-md-12" style={newsColStyle}>
+                      <p>Supreme court has issued a notice on removing something. </p>
+                    </div>
+                    <div class="col-md-12" style={newsColStyle}>
+                      <p>One more latest news </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

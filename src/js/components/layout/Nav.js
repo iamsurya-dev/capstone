@@ -21,6 +21,7 @@ export default class Nav extends React.Component {
       marginLeft: "68px",
     }
     const navContainerStyle = {
+      fontSize: "16px",
     }
 
     return (
