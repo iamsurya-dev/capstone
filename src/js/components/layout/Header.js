@@ -10,6 +10,7 @@ export default class Header extends React.Component {
       margin: "31px 15px 15px 15px",
     };
     const headerStyle = {
+      margin: "3px 0px 2px 26px",
     }
     const pageHeaderStyle = {
       margin: "10px 0 0",

@@ -19,6 +19,7 @@
     "react": "^0.14.8",
     "react-dom": "^0.14.8",
     "react-router": "^1.0.3",
+    "react-twitter-widgets": "^0.2.4",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.1"
   },
