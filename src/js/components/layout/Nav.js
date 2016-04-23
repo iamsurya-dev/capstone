@@ -24,6 +24,9 @@ export default class Nav extends React.Component {
       fontSize: "16px",
     }
 
+    const helpClass = location.pathname.match(/^\/help/) ? "active" : "";
+
+
     return (
       <nav class="navbar navbar-inverse" role="navigation">
             <div class="container" style={navContainerStyle}>
@@ -41,8 +44,8 @@ export default class Nav extends React.Component {
                         <li>
                             <a href="#">Updates</a>
                         </li>
-                        <li>
-                            <a href="#">Help</a>
+                        <li class={helpClass}>
+                            <Link to="help" onClick={this.toggleCollapse.bind(this)}>Help</Link>
                         </li>
                     </ul>
                     <form class="navbar-form navbar-right" role="search">
