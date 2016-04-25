@@ -2,3 +2,40 @@ header {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 22px 0 0;
 }
+
+a:hover {
+  text-decoration: none;
+}
+
+
+/* Help section */
+
+.help .help-box {
+  width: 50%;
+  margin-left: 22%;
+  margin-top: 2em;
+}
+
+.help .help-box p {
+  margin: 0px;
+  font-size: 16px;
+}
+
+.help-box a {
+  color: #000000;
+}
+
+.help-box .panel-body {
+    text-align: center;
+}
+
+.help-box .panel-body:hover {
+  color: #ffffff;
+  background-color: #395c82;
+}
+
+#faq {
+  height: 30em;
+  overflow-x: hidden;
+  border: 1px lightgray solid;
+}
