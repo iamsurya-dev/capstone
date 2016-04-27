@@ -32,10 +32,34 @@ a:hover {
 .help-box .panel-body:hover {
   color: #ffffff;
   background-color: #395c82;
+  cursor: pointer;
 }
 
 #faq {
   height: 30em;
   overflow-x: hidden;
   border: 1px lightgray solid;
+}
+
+.hidden {
+  display: none;
+}
+
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  cursor: pointer;
+}
+
+.backFaq {
+  float: right;
+  cursor: pointer;
+}
+
+.answer {
+  border-left: 3px lightgray solid;
+  margin-left: 35px;
+}
+
+.content-question {
+  margin-bottom: 15px;
 }
