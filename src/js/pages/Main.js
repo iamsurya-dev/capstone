@@ -1,7 +1,7 @@
 import React from "react";
 
 import FAQMain from "../components/FAQMain";
-import { Timeline } from 'react-twitter-widgets'
+
 
 export default class Main extends React.Component {
   render() {

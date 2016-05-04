@@ -35,7 +35,7 @@ a:hover {
   cursor: pointer;
 }
 
-#faq {
+#faq, #legal {
   height: 30em;
   overflow-x: hidden;
   border: 1px lightgray solid;
@@ -45,10 +45,10 @@ a:hover {
   display: none;
 }
 
-.nav-tabs > li.active > a:hover,
+/*.nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   cursor: pointer;
-}
+}*/
 
 .backFaq {
   float: right;
@@ -62,4 +62,50 @@ a:hover {
 
 .content-question {
   margin-bottom: 15px;
+}
+
+
+.legal-help {
+  margin-top: 15px;
+}
+
+.legal-help .search-legal {
+  margin-top: 15px;
+}
+
+.legal-help .letters-legal {
+  display: inline-block;
+}
+
+.legal-help .letters-legal a {
+
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border: 1px lightgray solid;
+  background: lightgray;
+  color: #000000;
+}
+
+.legal-help .letters-legal:hover {
+}
+
+.legal-help .letters-legal:hover a.link-legal {
+  background-color: #395c82;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.legal-description {
+  margin-top: 10px;
+  margin-left: 12px;
+  height: 240px;
+  border: 1px lightgray solid;
+  overflow: auto;
+}
+
+.nav-tabs>li {
+  padding-left: 0px;
+  padding-right: 0px;
 }
