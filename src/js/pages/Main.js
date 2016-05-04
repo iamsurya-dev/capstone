@@ -76,6 +76,7 @@ export default class Main extends React.Component {
     }
 
     const faqColStyle = {
+      marginTop: "10px",
       marginLeft: "-5px",
       marginRight: "5px"
     }
@@ -99,6 +100,7 @@ export default class Main extends React.Component {
       border: "1px lightgray solid",
       paddingLeft: "10px",
       fontSize: "13px",
+      marginTop: "10px",
     }
 
     const newsHeaderColStyle = {
@@ -129,6 +131,32 @@ export default class Main extends React.Component {
       maxHeight: "100%",
       overflow: "auto",
     }
+
+    const newsContentStyle = {
+      marginTop: "23px",
+      marginBottom: "5px",
+    }
+
+    const newsReadMoreStyle = {
+      textAlign: "right",
+    }
+
+    const infoContentStyle = {
+      marginTop: "23px",
+      marginBottom: "28px",
+    }
+
+    const newsParaStyle = {
+      margin: "0px",
+    }
+
+    const newsImageStyle = {
+      position: "absolute",
+      width: "32px",
+      marginLeft: "-19px",
+      marginTop: "-9px"
+    }
+
     return (
       <main>
         <div class="container">
@@ -290,44 +318,32 @@ export default class Main extends React.Component {
               </div>
             </div>
             <div class="col-md-6" style={linksColStyle}>
-              <div class="col-md-6">
-                <div class="row"  >
-                  <div class="col-md-12" style={maxHeightStyle}>
-                    <div class="col-md-12" style={newsHeaderColStyle}>
-                      <h4 style={newsHeaderStyle}>Latest News</h4>
-                    </div>
-                    <div class="col-md-12" style={newsColStyle}>
-                      <p>This site has been made by the Justice League</p>
-                    </div>
-                    <div class="col-md-12" style={newsColStyle}>
-                      <p>Design and development are very important</p>
-                    </div>
-                    <div class="col-md-12" style={newsColStyle}>
-                      <p>Supreme court has issued a notice on removing something. </p>
-                    </div>
-                    <div class="col-md-12" style={newsColStyle}>
-                      <p>One more latest news </p>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-md-12" style={maxHeightStyle}>
+                      <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10" style={newsColStyle}>
+                          <img src="./media/images/news.png" style={newsImageStyle} alt="latest news"/>
+                          <div style={newsContentStyle}>
+                            <p style={newsParaStyle}>April 20, 2016, Consumer Protection Bill to address issues of online shoppers.</p>
+                            <p style={newsReadMoreStyle}>... Read more</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="row"  >
-                  <div class="col-md-12" style={maxHeightStyle}>
-                    <div class="col-md-12" style={newsHeaderColStyle}>
-                      <h4 style={newsHeaderStyle}>Latest News</h4>
-                    </div>
-                    <div class="col-md-12" style={newsColStyle}>
-                      <p>This site has been made by the Justice League</p>
-                    </div>
-                    <div class="col-md-12" style={newsColStyle}>
-                      <p>Design and development are very important</p>
-                    </div>
-                    <div class="col-md-12" style={newsColStyle}>
-                      <p>Supreme court has issued a notice on removing something. </p>
-                    </div>
-                    <div class="col-md-12" style={newsColStyle}>
-                      <p>One more latest news </p>
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-md-12" style={maxHeightStyle}>
+                        <div class="col-md-12" style={newsColStyle}>
+                          <img src="./media/images/announcement.png" style={newsImageStyle} alt="latest announcements"/>
+                          <div style={infoContentStyle}>
+                            <p>April 14, 2016 has been declared as a national holiday. The forum offices will remain closed across the country.</p>
+                          </div>
+                        </div>
                     </div>
                   </div>
                 </div>

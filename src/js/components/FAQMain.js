@@ -10,8 +10,8 @@ export default class extends React.Component {
 
     const faqQuestionStyle = {
       display: "inline-block",
-      marginTop: "5px",
-      marginBottom: "5px",
+      marginTop: "8px",
+      marginBottom: "8px",
       fontSize: "13px",
     }
     return (
