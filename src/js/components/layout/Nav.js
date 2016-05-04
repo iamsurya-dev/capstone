@@ -23,6 +23,10 @@ export default class Nav extends React.Component {
     const navContainerStyle = {
       fontSize: "16px",
     }
+    const homeButtonImgStyle = {
+      width: "25px",
+      marginTop: "-8px",
+    }
 
     const helpClass = location.pathname.match(/^\/help/) ? "active" : "";
 
@@ -30,30 +34,33 @@ export default class Nav extends React.Component {
     return (
       <nav class="navbar navbar-inverse" role="navigation">
             <div class="container" style={navContainerStyle}>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a href="#">Tribunal</a>
-                        </li>
-                        <li>
-                            <a href="#">Act</a>
-                        </li>
-                        <li>
-                            <a href="#">Complaints</a>
-                        </li>
-                        <li>
-                            <a href="#">Updates</a>
-                        </li>
-                        <li class={helpClass}>
-                            <Link to="help" onClick={this.toggleCollapse.bind(this)}>Help</Link>
-                        </li>
-                    </ul>
-                    <form class="navbar-form navbar-right" role="search">
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search"/>
-                      </div>
-                    </form>
-                </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li>
+                    <a href="#"><img src="media/images/home-button.png" style={homeButtonImgStyle}/></a>
+                  </li>
+                  <li>
+                    <a href="#">Tribunal</a>
+                  </li>
+                  <li>
+                    <a href="#">Act</a>
+                  </li>
+                  <li>
+                    <a href="#">Complaints</a>
+                  </li>
+                  <li>
+                    <a href="#">Updates</a>
+                  </li>
+                  <li class={helpClass}>
+                    <Link to="help" onClick={this.toggleCollapse.bind(this)}>Help</Link>
+                  </li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search"/>
+                  </div>
+                </form>
+              </div>
 
             </div>
 
