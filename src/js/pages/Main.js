@@ -127,7 +127,6 @@ export default class Main extends React.Component {
     }
 
     const maxHeightStyle = {
-      height: "185px",
       maxHeight: "100%",
       overflow: "auto",
     }
@@ -155,6 +154,41 @@ export default class Main extends React.Component {
       width: "32px",
       marginLeft: "-19px",
       marginTop: "-9px"
+    }
+
+    const rtiQuestionStyle = {
+      display: "inline-block",
+      marginTop: "8.24px",
+      marginBottom: "8.24px",
+      fontSize: "13px",
+    }
+
+    const rtiColQuestionStyle = {
+      border: "1px lightgray solid",
+    }
+
+    const rtiMainColStyle = {
+      marginLeft: "51px",
+      width: "549px",
+      marginTop: "10px",
+    }
+
+    const rtiColHeadingStyle = {
+      backgroundColor: "#395c82",
+      color: "#ffffff",
+      borderColor: "lightgray",
+      height: "2.5em",
+    }
+
+    const rtiColStyle = {
+      marginTop: "9px",
+      marginLeft: "-5px",
+      marginRight: "5px"
+    }
+    const rtiSpanHeadingStyle = {
+      display: "inline-block",
+      marginTop: "8px",
+      color: "#ffffff"
     }
 
     return (
@@ -347,6 +381,52 @@ export default class Main extends React.Component {
                     </div>
                   </div>
                 </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12" style={rtiMainColStyle}>
+                  <div class="row">
+                    <div class="col-md-12" style={rtiColHeadingStyle}>
+                      <h4 style={rtiSpanHeadingStyle}>Right to Information</h4>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12" style={rtiColQuestionStyle}>
+                      <span style={rtiQuestionStyle}>Right to Information Act 2005 - Understand the Act</span>
+                    </div>
+                    <div class="col-md-12" style={rtiColQuestionStyle}>
+                      <span style={rtiQuestionStyle}>Access the directory of officers</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row dyk-section">
+            <div class="col-md-1 dyk-heading-section">
+              <p class="dyk-span-section">?Did you know</p>
+            </div>
+            <div class="col-md-3 dyk-col-section">
+              <div class="circle">89.73%</div>
+              <div class="dyk-para">
+                <p>
+                  Number of cases filed in the National Commission since its inception is 100856. 89.73% of them have been disposed and 10731 cases are pending.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 dyk-col-section">
+              <div class="circle">400%</div>
+              <div class="dyk-para">
+                <p>
+                  Study shows medical litigation has gone up by 400% due to greater consumer awareness, flexible consumer forums and cost involved in medical services.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 dyk-col-section">
+              <div class="circle">CPI</div>
+              <div class="dyk-para">
+                <p>
+                  Consumer Price Indices (CPI) measure changes over time in general level of prices of goods and services that households acquire for the purpose of consumption.
+                </p>
               </div>
             </div>
           </div>

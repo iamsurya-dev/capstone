@@ -109,3 +109,55 @@ a:hover {
   padding-left: 0px;
   padding-right: 0px;
 }
+/* Main Page */
+.circle {
+  width:60px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+  background: #000;
+  position: absolute;
+  margin-top: 7px;
+}
+
+.dyk-section {
+  margin-top: 20px;
+  border: 1px lightgray solid;
+  height: 110px;
+  margin-left: -22px;
+}
+
+.dyk-heading-section {
+  background-color: #395c82;
+  color: #fff;
+  width: auto;
+  float: left;
+  height: 100%;
+}
+
+.dyk-span-section {
+  display: inline-block;
+  text-align: left;
+  float: right;
+  padding-right: 6px;
+  padding-left: 11px;
+  width: 0.25em;
+  white-space: nowrap;
+  direction: rtl;
+  transform-origin: top left;
+  transform: rotate(-90deg) translate(-100%);
+}
+.dyk-col-section {
+  width: 32%;
+  height: 100%;
+  padding: 1em;
+}
+
+.dyk-para {
+  margin-left: 70px;
+  font-size: 13px;
+}
