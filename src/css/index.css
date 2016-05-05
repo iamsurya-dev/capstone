@@ -161,3 +161,75 @@ a:hover {
   margin-left: 70px;
   font-size: 13px;
 }
+
+
+/* Contact Us Page*/
+.contact-tile {
+  background-color: #e0e0e0;
+}
+.contact-main-col {
+  margin-top: 10px;
+}
+
+.contact-indv-tile {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-image-col {
+  padding: 0px;
+}
+
+.contact-image {
+  width: 50%;
+  margin-top: -2px;
+  margin-left: 20px;
+}
+.contact-description {
+  padding-left: 0px;
+}
+
+
+.contact-label {
+  text-align: center;
+  padding: 0px;
+  margin-top: 9px;
+}
+
+.offices-tile {
+  background-color: #e0e0e0;
+  height: 260px;
+}
+
+.contact-details {
+  margin-left: 21px;
+  font-weight: bold;
+}
+
+.contact-address {
+  margin-left: 21px;
+}
+
+.forms-tile {
+  background-color: #e0e0e0;
+  height: 250px;
+}
+
+.forms-col {
+  margin-top: 20px;
+}
+
+.forms-row {
+  margin-bottom: 12px;
+}
+
+.forms-label {
+  text-align: right;
+  padding: 0px;
+  margin-top: 9px;
+}
+
+.forms-submit {
+  float: right;
+  margin-right: 20px;
+}

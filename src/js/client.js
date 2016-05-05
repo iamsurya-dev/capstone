@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Router, Route, IndexRoute, hashHistory } from "react-router";
 
+import Contact from "./pages/Contact";
 import Help from "./pages/Help";
 import Layout from "./pages/Layout";
 import Main from "./pages/Main";
@@ -13,6 +14,7 @@ ReactDOM.render(
     <Route path="/" component={Layout}>
       <IndexRoute component={Main}></IndexRoute>
       <Route path="help" name="help" component={Help}></Route>
+      <Route path="contact" name="contact" component={Contact}></Route>
     </Route>
   </Router>,
   app);

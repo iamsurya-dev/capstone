@@ -1,4 +1,5 @@
 import React from "react";
+import { IndexLink, Link } from "react-router";
 
 import FAQMain from "../components/FAQMain";
 
@@ -280,7 +281,7 @@ export default class Main extends React.Component {
                       Call us now! 1800-SOLUTION
                       <br/><br/>
                       <div style={linkStyle}>
-                        <a href="#">Click here for more options</a>
+                        <Link to="contact">Click Here for more options</Link>
                       </div>
                     </p>
                   </div>
@@ -298,7 +299,7 @@ export default class Main extends React.Component {
                       askus@ncdrc.gov.in
                       <br/><br/>
                       <div style={linkStyle}>
-                        <a href="#">Connect with an official</a>
+                        <Link to="contact">Connect with an official</Link>
                       </div>
                     </p>
                   </div>
@@ -315,7 +316,7 @@ export default class Main extends React.Component {
                       INA New Delhi 110023
                       <br/>
                       <div style={linkStyle}>
-                        <a href="#">District Forums</a> | <a href="#">State Commissions</a>
+                        <Link to="contact">District Forums</Link> | <Link to="contact">State Commissions</Link>
                       </div>
                     </p>
                   </div>
