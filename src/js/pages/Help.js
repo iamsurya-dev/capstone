@@ -17,7 +17,6 @@ export default class Help extends React.Component {
     this.setState({faqMain});
   }
   render() {
-    console.log("help page");
     const imgHelpStyle = {
       width: "100%",
       height: "150px",

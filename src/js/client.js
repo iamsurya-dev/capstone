@@ -2,11 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Router, Route, IndexRoute, hashHistory } from "react-router";
 
+import Act from "./pages/Act";
 import Case from "./pages/Case";
 import Contact from "./pages/Contact";
 import Help from "./pages/Help";
 import Layout from "./pages/Layout";
 import Main from "./pages/Main";
+import Publications from "./pages/Publications";
 import Tribunal from "./pages/Tribunal";
 
 const app = document.getElementById('app');
@@ -19,6 +21,8 @@ ReactDOM.render(
       <Route path="contact" name="contact" component={Contact}></Route>
       <Route path="case" name="case" component={Case}></Route>
       <Route path="tribunal" name="tribunal" component={Tribunal}></Route>
+      <Route path="act" name="act" component={Act}></Route>
+      <Route path="publications" name="publications" component={Publications}></Route>
     </Route>
   </Router>,
   app);

@@ -12,8 +12,9 @@ a:hover {
 .case-type-img {
   width: 100%;
   background: url('../media/images/types.jpg');
-  background-size: 249px;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center;
   opacity: 0.7;
   color: black;
   margin: 0px;
@@ -31,8 +32,9 @@ a:hover {
 .access-img {
   width: 100%;
   background: url('../media/images/access.jpg');
-  background-size: 249px;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center;
   opacity: 0.7;
   color: black;
   margin: 0px;
@@ -50,8 +52,9 @@ a:hover {
 .act-img {
   width: 100%;
   background: url('../media/images/act.jpg');
-  background-size: 249px;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center;
   opacity: 0.7;
   color: black;
   margin: 0px;
@@ -69,8 +72,9 @@ a:hover {
 .data-img {
   width: 100%;
   background: url('../media/images/data.jpg');
-  background-size: 249px;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center;
   opacity: 0.7;
   color: black;
   margin: 0px;
@@ -88,8 +92,9 @@ a:hover {
 .dictionary-img {
   width: 100%;
   background: url('../media/images/dictionary.jpg');
-  background-size: 249px;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center;
   opacity: 0.7;
   color: black;
   margin: 0px;
@@ -107,8 +112,9 @@ a:hover {
 .causelist-img {
   width: 100%;
   background: url('../media/images/causelist.jpg');
-  background-size: 249px;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center;
   opacity: 0.7;
   color: black;
   margin: 0px;

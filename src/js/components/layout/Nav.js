@@ -21,11 +21,16 @@ export default class Nav extends React.Component {
       marginLeft: "68px",
     }
     const navContainerStyle = {
-      fontSize: "16px",
+      fontSize: "14px",
     }
     const homeButtonImgStyle = {
       width: "25px",
       marginTop: "-8px",
+    }
+    const searchNavbar = {
+      height: "27px",
+      paddingBottom: "9px",
+      marginTop: "7px",
     }
 
     const helpClass = location.pathname.match(/^\/help/) ? "active" : "";
@@ -37,27 +42,27 @@ export default class Nav extends React.Component {
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                   <li>
-                    <a href="#"><img src="media/images/home-button.png" style={homeButtonImgStyle}/></a>
+                    <Link to="#" onClick={this.toggleCollapse.bind(this)}><img src="media/images/home-button.png" style={homeButtonImgStyle}/></Link>
                   </li>
                   <li>
-                    <a href="#">Tribunal</a>
+                    <Link to="tribunal" onClick={this.toggleCollapse.bind(this)}>About the Tribunal</Link>
                   </li>
                   <li>
-                    <a href="#">Act</a>
+                    <Link to="act" onClick={this.toggleCollapse.bind(this)}>Related Acts</Link>
                   </li>
                   <li>
-                    <a href="#">Complaints</a>
+                    <Link to="case" onClick={this.toggleCollapse.bind(this)}>Case Information</Link>
                   </li>
                   <li>
-                    <a href="#">Updates</a>
+                    <Link to="publications" onClick={this.toggleCollapse.bind(this)}>Publications</Link>
                   </li>
                   <li class={helpClass}>
-                    <Link to="help" onClick={this.toggleCollapse.bind(this)}>Help</Link>
+                    <Link to="help" onClick={this.toggleCollapse.bind(this)}>Help Center</Link>
                   </li>
                 </ul>
                 <form class="navbar-form navbar-right" role="search">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search"/>
+                    <input type="text" class="form-control" style={searchNavbar} placeholder="Search"/>
                   </div>
                 </form>
               </div>
