@@ -19,7 +19,7 @@ export default class Case extends React.Component {
           <br/>
           <div class="row">
             <div class="col-md-3">
-              <Link to="case" class="col-md-12 case-tiles">
+              <Link to="case/complaint" class="col-md-12 case-tiles">
                 <div>
                   <br/>
                   <p class="case-tile-heading">Consumer Complaint</p>

@@ -9,7 +9,7 @@ a:hover {
 /*
 .page-wrap {
   min-height: 100%;
-  
+
   margin-bottom: -152px;
 }
 .page-wrap:after {
@@ -421,4 +421,23 @@ a:hover {
 
 .tribunal-links:hover {
   font-weight: bold;
+}
+
+
+/* Complaint Page */
+
+.complaint-image {
+  width: 100%;
+  height: 150px;
+}
+
+.complaint-tabs {
+  margin-top: -42px;
+}
+.complaint-main-link {
+  color: black;
+}
+
+.complaint-main-link:hover {
+  color: black;
 }
