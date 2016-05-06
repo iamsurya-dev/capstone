@@ -233,3 +233,29 @@ a:hover {
   float: right;
   margin-right: 20px;
 }
+
+
+/* Case Page */
+
+.case-tiles {
+  border: 1px #e0e0e0 solid;
+  background-color: #e0e0e0;
+  color: black;
+  height: 201px;
+}
+
+.case-tiles:hover,
+.case-tiles:focus {
+  color: black;
+  font-weight: 600;
+  box-shadow: 3px 3px;
+  text-decoration: none;
+}
+
+.case-tile-heading {
+  text-align: center;
+}
+
+.case-tile-description {
+  font-size: 13px;
+}

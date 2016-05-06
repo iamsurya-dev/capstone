@@ -199,15 +199,15 @@ export default class Main extends React.Component {
             <div class="col-md-8">
               <div class="row" style={tileRowStyle}>
                 <div class="col-md-4" style={tileColStyle}>
-                    <a href="#" class="col-md-12" style={imgTileStyle}>
-                      <div style={imgHeadingStyle}>
-                        <br/><br/>
-                        <p>Types of Cases</p>
-                      </div>
-                      <div style={tileDescriptionStyle}>
-                        <p>This is the description to a tile in the homepage.</p>
-                      </div>
-                    </a>
+                  <Link to="case" class="col-md-12" style={imgTileStyle}>
+                    <div style={imgHeadingStyle}>
+                      <br/><br/>
+                      <p>Types of Cases</p>
+                    </div>
+                    <div style={tileDescriptionStyle}>
+                      <p>This is the description to a tile in the homepage.</p>
+                    </div>
+                  </Link>
                 </div>
                 <div class="col-md-4" style={tileColStyle}>
                   <a href="#" class="col-md-12" style={imgTileStyle}>
