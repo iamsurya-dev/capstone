@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Help from "./pages/Help";
 import Layout from "./pages/Layout";
 import Main from "./pages/Main";
+import Tribunal from "./pages/Tribunal";
 
 const app = document.getElementById('app');
 
@@ -17,6 +18,7 @@ ReactDOM.render(
       <Route path="help" name="help" component={Help}></Route>
       <Route path="contact" name="contact" component={Contact}></Route>
       <Route path="case" name="case" component={Case}></Route>
+      <Route path="tribunal" name="tribunal" component={Tribunal}></Route>
     </Route>
   </Router>,
   app);
