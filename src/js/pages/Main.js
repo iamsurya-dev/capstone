@@ -19,10 +19,10 @@ export default class Main extends React.Component {
       marginBottom: "10px",
     }
     const tileColStyle = {
-      paddingLeft: "5px",
-      paddingRight: "5px",
+      paddingLeft: "7px",
+      paddingRight: "4px",
       marginLeft: "-10px",
-      marginRight: "10px",
+
     }
     const quickLinkStyle = {
       border: "1px lightgray solid",
@@ -39,8 +39,31 @@ export default class Main extends React.Component {
     const quickLinkColStyle = {
       marginTop: "10px",
     }
+    const quickLinkConnect = {
+      background: "black",
+      color: "white",
+      position: "absolute",
+      marginLeft: "276px",
+      fontWeight: "bold",
+      paddingLeft: "5px",
+      paddingRight: "2px",
+    }
+    const leftArrow = {
+
+    }
+    const newsConnect = {
+      background: "black",
+      color: "white",
+      float: "right",
+      fontSize: "13px",
+      fontWeight: "bold",
+      paddingLeft: "5px",
+      paddingRight: "2px",
+    }
     const imageQuickLinkStyle = {
-      width: "100%",
+      width: "80%",
+      marginTop: "5px",
+      marginLeft: "5px",
     }
     const imageColStyle = {
       padding: "0px",
@@ -58,12 +81,13 @@ export default class Main extends React.Component {
     const imgHeadingStyle = {
       height: "135px",
       textAlign: "center",
+      fontSize: "16px",
     }
 
     const tileDescriptionStyle = {
       background: "black",
-      opacity: "0.6",
-      padding: "0",
+      opacity: "0.8",
+      paddingLeft: "5px",
       margin: "0",
       height: "100%",
       color: "white"
@@ -199,70 +223,76 @@ export default class Main extends React.Component {
             <div class="col-md-8">
               <div class="row" style={tileRowStyle}>
                 <div class="col-md-4" style={tileColStyle}>
-                  <Link to="case" class="col-md-12" style={imgTileStyle}>
+                  <Link to="case" class="col-md-12 case-type-img">
                     <div style={imgHeadingStyle}>
-                      <br/><br/>
+                      <br/>
                       <p>Types of Cases</p>
+                      <hr class="horizontal-line"/>
                     </div>
                     <div style={tileDescriptionStyle}>
-                      <p>This is the description to a tile in the homepage.</p>
+                      <p>Understand the types of cases you can file as a consumer.</p>
                     </div>
                   </Link>
                 </div>
                 <div class="col-md-4" style={tileColStyle}>
-                  <a href="#" class="col-md-12" style={imgTileStyle}>
+                  <a href="#" class="col-md-12 access-img">
                     <div style={imgHeadingStyle}>
-                      <br/><br/>
-                      <p>Case Lifecycle</p>
+                      <br/>
+                      <p>Access a Case</p>
+                      <hr class="horizontal-line"/>
                     </div>
                     <div style={tileDescriptionStyle}>
-                      <p>This is the description to a tile in the homepage.</p>
+                      <p>Check the status of an existing or past case.</p>
                     </div>
                   </a>
                 </div>
                 <div class="col-md-4" style={tileColStyle}>
-                  <a href="#" class="col-md-12" style={imgTileStyle}>
+                  <a href="#" class="col-md-12 act-img">
                     <div style={imgHeadingStyle}>
-                      <br/><br/>
-                      <p>Steps to File a Complaint</p>
+                      <br/>
+                      <p>The Act</p>
+                      <hr class="horizontal-line"/>
                     </div>
                     <div style={tileDescriptionStyle}>
-                      <p>This is the description to a tile in the homepage.</p>
+                      <p>Explore the Consumer Protection Act, 1986.</p>
                     </div>
                   </a>
                 </div>
               </div>
               <div class="row" style={tileRowStyle}>
                 <div class="col-md-4" style={tileColStyle}>
-                    <a href="#" class="col-md-12" style={imgTileStyle}>
+                    <a href="#" class="col-md-12 data-img">
                       <div style={imgHeadingStyle}>
-                        <br/><br/>
-                        <p>Access a Case</p>
+                        <br/>
+                        <p>Data & Statistics</p>
+                        <hr class="horizontal-line"/>
                       </div>
                       <div style={tileDescriptionStyle}>
-                        <p>This is the description to a tile in the homepage.</p>
+                        <p>Explore latest graphs, data and visualizations regarding cases.</p>
                       </div>
                     </a>
                 </div>
                 <div class="col-md-4" style={tileColStyle}>
-                  <a href="#" class="col-md-12" style={imgTileStyle}>
+                  <Link to="help" class="col-md-12 dictionary-img">
                     <div style={imgHeadingStyle}>
-                      <br/><br/>
-                      <p>Forms and Templates</p>
+                      <br/>
+                      <p>Legal Dictionary</p>
+                      <hr class="horizontal-line"/>
                     </div>
                     <div style={tileDescriptionStyle}>
-                      <p>This is the description to a tile in the homepage.</p>
+                      <p>Understand complex legal terms through simple explanations.</p>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div class="col-md-4" style={tileColStyle}>
-                  <a href="#" class="col-md-12" style={imgTileStyle}>
+                  <a href="#" class="col-md-12 causelist-img">
                     <div style={imgHeadingStyle}>
-                      <br/><br/>
-                      <p>Interact with Data</p>
+                      <br/>
+                      <p>Causelist</p>
+                      <hr class="horizontal-line"/>
                     </div>
                     <div style={tileDescriptionStyle}>
-                      <p>This is the description to a tile in the homepage.</p>
+                      <p>Access court schedule and other details for ongoing cases.</p>
                     </div>
                   </a>
                 </div>
@@ -270,6 +300,9 @@ export default class Main extends React.Component {
             </div>
             <div class="col-md-4" style={quickLinkStyle}>
               <div class="row" style={quickLinkRowStyle1}>
+                <div>
+                  <span style={quickLinkConnect}><span style={leftArrow}> &lt; </span>&nbsp; Let's Connect</span>
+                </div>
                 <div class="col-md-12" style={quickLinkColStyle}>
                   <div class="col-md-2" style={imageColStyle}>
                     <img src="./media/images/call.png" style={imageQuickLinkStyle} alt="Contact"/>
@@ -340,6 +373,9 @@ export default class Main extends React.Component {
                 </div>
               </div>
             </div>
+          </div>
+          <div class="container">
+            <span style={newsConnect}><span style={leftArrow}> &lt; </span>&nbsp; News You Can Use</span>
           </div>
           <div class="row">
             <div class="col-md-6" style={faqColStyle}>
