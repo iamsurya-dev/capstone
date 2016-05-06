@@ -11,13 +11,13 @@ export default class Layout extends React.Component {
     const containerStyle = {
       marginTop: "60px"
     };
-    
+
     return (
       <div>
         <Header/>
         <Nav location={location} />
 
-        <div class="container" style={containerStyle}>
+        <div class="container page-wrap" style={containerStyle}>
           <div class="row">
             <div class="col-lg-12">
               {this.props.children}

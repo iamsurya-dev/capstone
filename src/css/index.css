@@ -6,6 +6,19 @@ header {
 a:hover {
   text-decoration: none;
 }
+/*
+.page-wrap {
+  min-height: 100%;
+  
+  margin-bottom: -152px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 152px;
+}*/
 
 
 /* Main Page */
