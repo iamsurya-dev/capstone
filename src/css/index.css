@@ -397,18 +397,21 @@ a:hover {
 
 /* Case Page */
 
+.cases h1,h2,h3,h4 {
+  color: #336699;
+}
 .case-tiles {
   border: 1px #e0e0e0 solid;
   background-color: #e0e0e0;
   color: black;
-  height: 201px;
+  height: 184px;
 }
 
 .case-tiles:hover,
 .case-tiles:focus {
   color: black;
   font-weight: 600;
-  box-shadow: 3px 3px;
+  box-shadow: 2px 2px grey;
   text-decoration: none;
 }
 
@@ -418,6 +421,11 @@ a:hover {
 
 .case-tile-description {
   font-size: 13px;
+}
+
+.remedy-title {
+  color: #336699;
+  border-bottom: 1px lightgray solid;
 }
 
 

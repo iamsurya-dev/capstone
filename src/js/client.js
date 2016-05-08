@@ -5,6 +5,7 @@ import { Router, Route, IndexRoute, hashHistory } from "react-router";
 import Act from "./pages/Act";
 import Case from "./pages/Case";
 import CaseType from "./pages/CaseType";
+import Consumer from "./pages/Consumer";
 import ConsumerComplaint from "./pages/ConsumerComplaint";
 import Contact from "./pages/Contact";
 import Help from "./pages/Help";
@@ -20,6 +21,7 @@ ReactDOM.render(
     <Route path="/" component={Layout}>
       <IndexRoute component={Main}></IndexRoute>
       <Route path="help" name="help" component={Help}></Route>
+      <Route path="consumer" name="consumer" component={Consumer}></Route>
       <Route path="contact" name="contact" component={Contact}></Route>
       <Route path="case" name="case" component={CaseType}>
         <IndexRoute component={Case}></IndexRoute>
