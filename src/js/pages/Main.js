@@ -223,7 +223,7 @@ export default class Main extends React.Component {
             <div class="col-md-8">
               <div class="row" style={tileRowStyle}>
                 <div class="col-md-4" style={tileColStyle}>
-                  <a href="#" class="col-md-12 causelist-img">
+                  <Link to="consumer" class="col-md-12 causelist-img">
                     <div style={imgHeadingStyle}>
                       <br/>
                       <p>Can I file a case?</p>
@@ -232,7 +232,7 @@ export default class Main extends React.Component {
                     <div style={tileDescriptionStyle}>
                       <p>Understand the definition of a consumer and their rights.</p>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div class="col-md-4" style={tileColStyle}>
                   <Link to="case" class="col-md-12 case-type-img">

@@ -397,7 +397,10 @@ a:hover {
 
 /* Case Page */
 
-.cases h1,h2,h3,h4 {
+.cases h1,
+.cases h2,
+.cases h3,
+.cases h4 {
   color: #336699;
 }
 .case-tiles {
@@ -469,4 +472,18 @@ a:hover {
 
 .complaint-main-link:hover {
   color: black;
+}
+
+
+/* Consumer Page */
+
+.consumer h1,
+.consumer h2,
+.consumer h3,
+.consumer h4 {
+  color: #336699;
+}
+
+.consumer-list {
+  margin-left: -21px;
 }
