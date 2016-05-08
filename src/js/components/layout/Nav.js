@@ -33,6 +33,9 @@ export default class Nav extends React.Component {
       marginTop: "7px",
     }
 
+    const searchNavStyle = {
+      marginRight: "-51px",
+    }
     const helpClass = location.pathname.match(/^\/help/) ? "active" : "";
 
 
@@ -42,10 +45,10 @@ export default class Nav extends React.Component {
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                   <li>
-                    <Link to="#" onClick={this.toggleCollapse.bind(this)}><img src="media/images/home-button.png" style={homeButtonImgStyle}/></Link>
+                    <Link to="#" onClick={this.toggleCollapse.bind(this)}>Home</Link>
                   </li>
                   <li>
-                    <Link to="tribunal" onClick={this.toggleCollapse.bind(this)}>About the Tribunal</Link>
+                    <Link to="tribunal" onClick={this.toggleCollapse.bind(this)}>About Us</Link>
                   </li>
                   <li>
                     <Link to="act" onClick={this.toggleCollapse.bind(this)}>Related Acts</Link>
@@ -60,7 +63,7 @@ export default class Nav extends React.Component {
                     <Link to="help" onClick={this.toggleCollapse.bind(this)}>Help Center</Link>
                   </li>
                 </ul>
-                <form class="navbar-form navbar-right" role="search">
+                <form class="navbar-form navbar-right" style={searchNavStyle} role="search">
                   <div class="form-group">
                     <input type="text" class="form-control" style={searchNavbar} placeholder="Search"/>
                   </div>

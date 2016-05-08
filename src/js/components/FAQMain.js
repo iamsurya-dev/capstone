@@ -1,4 +1,5 @@
 import React from "react";
+import { IndexLink, Link } from "react-router";
 
 export default class extends React.Component {
   render() {
@@ -15,9 +16,9 @@ export default class extends React.Component {
       fontSize: "13px",
     }
     return (
-      <div class="col-md-12" style={faqColQuestionStyle}>
+      <Link to="help" class="col-md-12 faq-questions">
         <span style={faqQuestionStyle}>{question}</span>
-      </div>
+      </Link>
     );
   }
 }

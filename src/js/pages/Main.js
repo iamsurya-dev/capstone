@@ -15,7 +15,7 @@ export default class Main extends React.Component {
     ].map((question, i) => <FAQMain key={i} question={question}/>);
 
     const tileRowStyle = {
-      height: "193px",
+      height: "181px",
       marginBottom: "10px",
     }
     const tileColStyle = {
@@ -79,7 +79,7 @@ export default class Main extends React.Component {
       padding: "0"
     }
     const imgHeadingStyle = {
-      height: "135px",
+      height: "130px",
       textAlign: "center",
       fontSize: "16px",
     }
@@ -223,14 +223,26 @@ export default class Main extends React.Component {
             <div class="col-md-8">
               <div class="row" style={tileRowStyle}>
                 <div class="col-md-4" style={tileColStyle}>
-                  <Link to="case" class="col-md-12 case-type-img">
+                  <a href="#" class="col-md-12 causelist-img">
                     <div style={imgHeadingStyle}>
                       <br/>
-                      <p>Types of Cases</p>
+                      <p>Can I file a case?</p>
                       <hr class="horizontal-line"/>
                     </div>
                     <div style={tileDescriptionStyle}>
-                      <p>Understand the types of cases you can file as a consumer.</p>
+                      <p>Understand the definition of a consumer and their rights.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-4" style={tileColStyle}>
+                  <Link to="case" class="col-md-12 case-type-img">
+                    <div style={imgHeadingStyle}>
+                      <br/>
+                      <p>How to file a case?</p>
+                      <hr class="horizontal-line"/>
+                    </div>
+                    <div style={tileDescriptionStyle}>
+                      <p>Find out options and remedies available for consumer grievances</p>
                     </div>
                   </Link>
                 </div>
@@ -238,37 +250,37 @@ export default class Main extends React.Component {
                   <a href="#" class="col-md-12 access-img">
                     <div style={imgHeadingStyle}>
                       <br/>
-                      <p>Access a Case</p>
+                      <p>Searching for a case?</p>
                       <hr class="horizontal-line"/>
                     </div>
                     <div style={tileDescriptionStyle}>
-                      <p>Check the status of an existing or past case.</p>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-md-4" style={tileColStyle}>
-                  <a href="#" class="col-md-12 act-img">
-                    <div style={imgHeadingStyle}>
-                      <br/>
-                      <p>The Act</p>
-                      <hr class="horizontal-line"/>
-                    </div>
-                    <div style={tileDescriptionStyle}>
-                      <p>Explore the Consumer Protection Act, 1986.</p>
+                      <p>Access a case to view status, history judgements and calendar</p>
                     </div>
                   </a>
                 </div>
               </div>
               <div class="row" style={tileRowStyle}>
                 <div class="col-md-4" style={tileColStyle}>
+                  <a href="#" class="col-md-12 act-img">
+                    <div style={imgHeadingStyle}>
+                      <br/>
+                      <p>Read The Act</p>
+                      <hr class="horizontal-line"/>
+                    </div>
+                    <div style={tileDescriptionStyle}>
+                      <p>Explore the Consumer Protection Act, 1986 and its amendments</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-4" style={tileColStyle}>
                     <a href="#" class="col-md-12 data-img">
                       <div style={imgHeadingStyle}>
                         <br/>
-                        <p>Data & Statistics</p>
+                        <p>NCDRC Data & Statistics</p>
                         <hr class="horizontal-line"/>
                       </div>
                       <div style={tileDescriptionStyle}>
-                        <p>Explore latest graphs, data and visualizations regarding cases.</p>
+                        <p>Interact with raw data to generate charts and graphs</p>
                       </div>
                     </a>
                 </div>
@@ -280,21 +292,9 @@ export default class Main extends React.Component {
                       <hr class="horizontal-line"/>
                     </div>
                     <div style={tileDescriptionStyle}>
-                      <p>Understand complex legal terms through simple explanations.</p>
+                      <p>Understand complex legal terms through simple explanations</p>
                     </div>
                   </Link>
-                </div>
-                <div class="col-md-4" style={tileColStyle}>
-                  <a href="#" class="col-md-12 causelist-img">
-                    <div style={imgHeadingStyle}>
-                      <br/>
-                      <p>Causelist</p>
-                      <hr class="horizontal-line"/>
-                    </div>
-                    <div style={tileDescriptionStyle}>
-                      <p>Access court schedule and other details for ongoing cases.</p>
-                    </div>
-                  </a>
                 </div>
               </div>
             </div>
@@ -366,7 +366,7 @@ export default class Main extends React.Component {
                       and Holiday Schedules
                       <br/>
                       <div style={linkStyle}>
-                        <a href="#">Court Calendar</a> | <a href="#">Circuit Bench Schedule</a> | <a href="#">Causlists</a>
+                        <a href="#">Court Calendar</a> | <a href="#">Circuit Benches</a> | <a href="#">Causlists</a>
                       </div>
                     </p>
                   </div>
@@ -444,26 +444,32 @@ export default class Main extends React.Component {
             </div>
             <div class="col-md-3 dyk-col-section">
               <div class="circle">89.73%</div>
-              <div class="dyk-para">
-                <p>
-                  Number of cases filed in the National Commission since its inception is 100856. 89.73% of them have been disposed and 10731 cases are pending.
-                </p>
+              <div class="dyk-para dyk-para-align1">
+                <span>
+                  Out of the 100,856 cases filed in NCDRC, 89.73% of them have been closed.
+                </span>
+                <br/>
+                <span class="dyk-readmore">...Read more</span>
               </div>
             </div>
             <div class="col-md-3 dyk-col-section">
               <div class="circle">400%</div>
-              <div class="dyk-para">
-                <p>
-                  Study shows medical litigation has gone up by 400% due to greater consumer awareness, flexible consumer forums and cost involved in medical services.
-                </p>
+              <div class="dyk-para dyk-para-align2">
+                <span>
+                  Study shows medical litigation has increased due to greater consumer awareness, flexible consumer forums and other factors.
+                </span>
+                <br/>
+                <span class="dyk-readmore">...Read more</span>
               </div>
             </div>
             <div class="col-md-3 dyk-col-section">
               <div class="circle">CPI</div>
-              <div class="dyk-para">
-                <p>
-                  Consumer Price Indices (CPI) measure changes over time in general level of prices of goods and services that households acquire for the purpose of consumption.
-                </p>
+              <div class="dyk-para dyk-para-align3">
+                <span>
+                  Consumer Price Indices (CPI) measure changes in level of prices of goods and services that households acquire for the purpose of consumption.
+                </span>
+                <br/>
+                <span class="dyk-readmore">...Read more</span>
               </div>
             </div>
           </div>

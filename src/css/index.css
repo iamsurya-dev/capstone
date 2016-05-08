@@ -28,7 +28,7 @@ a:hover {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.7;
+  opacity: 0.4;
   color: black;
   margin: 0px;
   padding: 0px;
@@ -39,7 +39,7 @@ a:hover {
   font-weight: bold;
   box-shadow: 0px 3px 3px -2px grey;
   text-decoration: none;
-  opacity: 1;
+  opacity: 0.7;
 }
 
 .access-img {
@@ -48,7 +48,7 @@ a:hover {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.7;
+  opacity: 0.4;
   color: black;
   margin: 0px;
   padding: 0px;
@@ -59,7 +59,7 @@ a:hover {
   font-weight: bold;
   box-shadow: 0px 3px 2px -2px grey;
   text-decoration: none;
-  opacity: 1;
+  opacity: 0.7;
 }
 
 .act-img {
@@ -68,7 +68,7 @@ a:hover {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.7;
+  opacity: 0.4;
   color: black;
   margin: 0px;
   padding: 0px;
@@ -79,7 +79,7 @@ a:hover {
   font-weight: bold;
   box-shadow: 0px 3px 2px -2px grey;
   text-decoration: none;
-  opacity: 1;
+  opacity: 0.7;
 }
 
 .data-img {
@@ -88,7 +88,7 @@ a:hover {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.7;
+  opacity: 0.4;
   color: black;
   margin: 0px;
   padding: 0px;
@@ -99,7 +99,7 @@ a:hover {
   font-weight: bold;
   box-shadow: 0px 3px 2px -2px grey;
   text-decoration: none;
-  opacity: 1;
+  opacity: 0.7;
 }
 
 .dictionary-img {
@@ -108,7 +108,7 @@ a:hover {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.7;
+  opacity: 0.4;
   color: black;
   margin: 0px;
   padding: 0px;
@@ -119,7 +119,7 @@ a:hover {
   font-weight: bold;
   box-shadow: 0px 3px 2px -2px grey;
   text-decoration: none;
-  opacity: 1;
+  opacity: 0.7;
 }
 
 .causelist-img {
@@ -128,7 +128,7 @@ a:hover {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.7;
+  opacity: 0.4;
   color: black;
   margin: 0px;
   padding: 0px;
@@ -139,12 +139,22 @@ a:hover {
   font-weight: bold;
   box-shadow: 0px 3px 2px -2px grey;
   text-decoration: none;
-  opacity: 1;
+  opacity: 0.7;
 }
 
 .horizontal-line {
   margin: 20px;
   border: 1px solid #999999;
+}
+
+.faq-questions {
+  border: 1px lightgray solid;
+  color: black;
+}
+
+.faq-questions:hover {
+  background-color: #D3D3D3;
+  color: black;
 }
 
 /* Help section */
@@ -301,6 +311,17 @@ a:hover {
   font-size: 13px;
 }
 
+.dyk-para-align1 {
+  margin-top: 17px;
+}
+
+.dyk-para-align2 {
+  margin-top: 7px;
+}
+
+.dyk-readmore {
+  float: right;
+}
 
 /* Contact Us Page*/
 .contact-tile {
