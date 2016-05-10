@@ -15,7 +15,7 @@ export default class Main extends React.Component {
     ].map((question, i) => <FAQMain key={i} question={question}/>);
 
     const tileRowStyle = {
-      height: "181px",
+      height: "189px",
       marginBottom: "10px",
     }
     const tileColStyle = {
@@ -28,12 +28,12 @@ export default class Main extends React.Component {
       border: "1px lightgray solid",
     }
     const quickLinkRowStyle1 = {
-      height: "100%",
+      height: "98px",
       background: "lightgray",
       fontSize: "13px",
     }
     const quickLinkRowStyle2 = {
-      height: "100%",
+      height: "98px",
       fontSize: "13px",
     }
     const quickLinkColStyle = {
@@ -61,9 +61,9 @@ export default class Main extends React.Component {
       paddingRight: "2px",
     }
     const imageQuickLinkStyle = {
-      width: "80%",
+      width: "60%",
       marginTop: "5px",
-      marginLeft: "5px",
+      marginLeft: "10px",
     }
     const imageColStyle = {
       padding: "0px",
@@ -79,18 +79,18 @@ export default class Main extends React.Component {
       padding: "0"
     }
     const imgHeadingStyle = {
-      height: "130px",
+      color: "black",
       textAlign: "center",
       fontSize: "16px",
+      marginTop: "10px",
     }
 
     const tileDescriptionStyle = {
-      background: "black",
-      opacity: "0.8",
+      background: "#6C6C6C",
       paddingLeft: "5px",
       margin: "0",
-      height: "100%",
-      color: "white"
+      color: "white",
+      marginTop: "110px",
     }
 
     const faqColHeadingStyle = {
@@ -223,76 +223,76 @@ export default class Main extends React.Component {
             <div class="col-md-8">
               <div class="row" style={tileRowStyle}>
                 <div class="col-md-4" style={tileColStyle}>
-                  <Link to="consumer" class="col-md-12 causelist-img">
+                  <Link to="consumer" class="col-md-12 links-main">
                     <div style={imgHeadingStyle}>
-                      <br/>
                       <p>Can I file a case?</p>
-                      <hr class="horizontal-line"/>
                     </div>
-                    <div style={tileDescriptionStyle}>
-                      <p>Understand the definition of a consumer and their rights.</p>
+                    <div class="causelist-img">
+                      <div style={tileDescriptionStyle}>
+                        <p>Understand the definition of a consumer and their rights.</p>
+                      </div>
                     </div>
                   </Link>
                 </div>
                 <div class="col-md-4" style={tileColStyle}>
-                  <Link to="case" class="col-md-12 case-type-img">
+                  <Link to="case" class="col-md-12 links-main">
                     <div style={imgHeadingStyle}>
-                      <br/>
                       <p>How to file a case?</p>
-                      <hr class="horizontal-line"/>
                     </div>
-                    <div style={tileDescriptionStyle}>
-                      <p>Find out options and remedies available for consumer grievances</p>
+                    <div class="case-type-img">
+                      <div style={tileDescriptionStyle}>
+                        <p>Find out options and remedies available for consumer grievances</p>
+                      </div>
                     </div>
                   </Link>
                 </div>
                 <div class="col-md-4" style={tileColStyle}>
-                  <a href="#" class="col-md-12 access-img">
+                  <a href="#" class="col-md-12 links-main">
                     <div style={imgHeadingStyle}>
-                      <br/>
                       <p>Searching for a case?</p>
-                      <hr class="horizontal-line"/>
                     </div>
-                    <div style={tileDescriptionStyle}>
-                      <p>Access a case to view status, history judgements and calendar</p>
+                    <div class="access-img">
+                      <div style={tileDescriptionStyle}>
+                        <p>Access a case to view status, history judgements and calendar</p>
+                      </div>
                     </div>
                   </a>
                 </div>
               </div>
               <div class="row" style={tileRowStyle}>
                 <div class="col-md-4" style={tileColStyle}>
-                  <a href="#" class="col-md-12 act-img">
+                  <a href="#" class="col-md-12 links-main">
                     <div style={imgHeadingStyle}>
-                      <br/>
                       <p>Read The Act</p>
-                      <hr class="horizontal-line"/>
                     </div>
-                    <div style={tileDescriptionStyle}>
-                      <p>Explore the Consumer Protection Act, 1986 and its amendments</p>
+                    <div class="act-img">
+                      <div style={tileDescriptionStyle}>
+                        <p>Explore the Consumer Protection Act, 1986 and its amendments</p>
+                      </div>
                     </div>
                   </a>
                 </div>
                 <div class="col-md-4" style={tileColStyle}>
-                    <a href="#" class="col-md-12 data-img">
+                    <a href="#" class="col-md-12 links-main">
                       <div style={imgHeadingStyle}>
-                        <br/>
                         <p>NCDRC Data & Statistics</p>
-                        <hr class="horizontal-line"/>
                       </div>
-                      <div style={tileDescriptionStyle}>
-                        <p>Interact with raw data to generate charts and graphs</p>
+                      <div class="data-img">
+                        <div style={tileDescriptionStyle}>
+                          <p>Interact with raw data to generate charts and graphs</p>
+                        </div>
                       </div>
                     </a>
                 </div>
                 <div class="col-md-4" style={tileColStyle}>
-                  <Link to="help" class="col-md-12 dictionary-img">
+                  <Link to="help" class="col-md-12 links-main">
                     <div style={imgHeadingStyle}>
-                      <br/>
                       <p>Legal Dictionary</p>
-                      <hr class="horizontal-line"/>
                     </div>
-                    <div style={tileDescriptionStyle}>
-                      <p>Understand complex legal terms through simple explanations</p>
+                    <div class="dictionary-img">
+                      <div style={tileDescriptionStyle}>
+                        <p>Understand complex legal terms through simple explanations</p>
+                      </div>
                     </div>
                   </Link>
                 </div>
@@ -300,19 +300,16 @@ export default class Main extends React.Component {
             </div>
             <div class="col-md-4" style={quickLinkStyle}>
               <div class="row" style={quickLinkRowStyle1}>
-                <div>
-                  <span style={quickLinkConnect}><span style={leftArrow}> &lt; </span>&nbsp; Let's Connect</span>
-                </div>
                 <div class="col-md-12" style={quickLinkColStyle}>
                   <div class="col-md-2" style={imageColStyle}>
                     <img src="./media/images/call.png" style={imageQuickLinkStyle} alt="Contact"/>
                   </div>
                   <div class="col-md-10">
                     <p>
-                      Have a question?
+                      <strong>Have a question?</strong>
                       <br/>
                       Call us now! 1800-SOLUTION
-                      <br/><br/>
+                      <br/>
                       <div style={linkStyle}>
                         <Link to="contact">Click Here for more options</Link>
                       </div>
@@ -327,10 +324,10 @@ export default class Main extends React.Component {
                   </div>
                   <div class="col-md-10">
                     <p>
-                      Email us! Send us your queries on -
+                      <strong>Email us!</strong> Send us your queries on -
                       <br/>
                       askus@ncdrc.gov.in
-                      <br/><br/>
+                      <br/>
                       <div style={linkStyle}>
                         <Link to="contact">Connect with an official</Link>
                       </div>
@@ -345,7 +342,7 @@ export default class Main extends React.Component {
                   </div>
                   <div class="col-md-10">
                     <p>
-                      Upbhokta Nyay Bhavan F-Block GPO Complex,
+                      <strong>Contact Address</strong>: Upbhokta Nyay Bhavan F-Block GPO Complex,
                       INA New Delhi 110023
                       <br/>
                       <div style={linkStyle}>
@@ -362,7 +359,7 @@ export default class Main extends React.Component {
                   </div>
                   <div class="col-md-10">
                     <p>
-                      Find out Court Hours, Break Timings
+                      <strong>Court Details</strong>: Find out Court Hours, Break Timings
                       and Holiday Schedules
                       <br/>
                       <div style={linkStyle}>
@@ -374,9 +371,7 @@ export default class Main extends React.Component {
               </div>
             </div>
           </div>
-          <div class="container">
-            <span style={newsConnect}><span style={leftArrow}> &lt; </span>&nbsp; News You Can Use</span>
-          </div>
+
           <div class="row">
             <div class="col-md-6" style={faqColStyle}>
               <div class="row">
@@ -397,6 +392,7 @@ export default class Main extends React.Component {
                         <div class="col-md-2"></div>
                         <div class="col-md-10" style={newsColStyle}>
                           <img src="./media/images/news.png" style={newsImageStyle} alt="latest news"/>
+                          <span>&nbsp;&nbsp;&nbsp;&nbsp; <strong>News</strong></span>
                           <div style={newsContentStyle}>
                             <p style={newsParaStyle}>April 20, 2016, Consumer Protection Bill to address issues of online shoppers.</p>
                             <p style={newsReadMoreStyle}>... Read more</p>
@@ -411,6 +407,7 @@ export default class Main extends React.Component {
                     <div class="col-md-12" style={maxHeightStyle}>
                         <div class="col-md-12" style={newsColStyle}>
                           <img src="./media/images/announcement.png" style={newsImageStyle} alt="latest announcements"/>
+                          <span>&nbsp; &nbsp;&nbsp;&nbsp;<strong>Information</strong></span>
                           <div style={infoContentStyle}>
                             <p>April 14, 2016 has been declared as a national holiday. The forum offices will remain closed across the country.</p>
                           </div>
