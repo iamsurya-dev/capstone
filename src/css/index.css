@@ -474,6 +474,59 @@ a:hover {
   color: black;
 }
 
+.complaints-type-example:hover {
+  cursor: pointer;
+}
+
+#types {
+  height: 30em;
+  overflow-x: hidden;
+  border: 1px lightgray solid;
+}
+
+.case-type h1,
+.case-type h2,
+.case-type h3,
+.case-type h4 {
+  color: #336699;
+}
+
+.consumer-complaint {
+  margin-left: 10px;
+}
+
+#steps {
+  height: 30em;
+  overflow-x: hidden;
+  border: 1px lightgray solid;
+}
+
+.steps-complaint {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.steps-complaint-img {
+  width: 5%;
+}
+
+.steps-heading {
+  font-size: 18px;
+  margin-left: -19px;
+  color: #336699;
+  cursor: pointer;
+  margin-top: 1px;
+}
+
+/*.steps-heading:hover {
+
+}*/
+
+.steps-div {
+  margin-left: 51px;
+}
+.steps-bullets {
+  border-left: 2px #336699 solid;
+}
 
 /* Consumer Page */
 
