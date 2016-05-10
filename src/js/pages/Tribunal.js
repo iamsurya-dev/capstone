@@ -28,8 +28,12 @@ export default class Tribunal extends React.Component {
             </div>
           </div>
           <br/>
-          <div class="alert alert-dismissible alert-success tribunal-dictionary">
-            Refer the <a src="help">Legal Dictionary</a> to understand complex terms.
+          <div class="cta-div">
+            <p class="cta-further-options"><strong>Further options</strong></p>
+            <img src="../../media/images/cta-arrow.png" class="cta-arrow"/>
+            <Link to="help" class="cta-button">
+              Refer Legal Dictionary
+            </Link>
           </div>
           <br/>
           <h4 class="tribunal-heading">What we do</h4>

@@ -612,3 +612,33 @@ a:hover {
 .consumer-list {
   margin-left: -21px;
 }
+
+
+/* CTA */
+.cta-further-options {
+  display: inline-block;
+  color: #004D00;
+}
+
+.cta-arrow {
+  width: 2%;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px #336699 solid;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #336699;
+}
+
+.cta-button:hover {
+  color: #ffffff;
+  background-color: #336699;
+  cursor: pointer;
+}

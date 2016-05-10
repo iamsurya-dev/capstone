@@ -82,8 +82,12 @@ export default class Case extends React.Component {
           <div class="alert alert-dismissible alert-warning">
             A Consumer Complaint is a <strong>pre-requisite</strong> for Appeal, Revision Petition and Transfer Application.
           </div>
-          <div class="alert alert-dismissible alert-success">
-            Verify your status as a consumer and view Consumer Rights. <Link to="consumer" class="alert-link">Click here</Link>.
+          <div class="cta-div">
+            <p class="cta-further-options"><strong>Further options</strong></p>
+            <img src="../../media/images/cta-arrow.png" class="cta-arrow"/>
+            <Link to="consumer" class="cta-button">
+              View Consumer Rights
+            </Link>
           </div>
           <h4>Remedies Available</h4>
           <p>
@@ -131,8 +135,12 @@ export default class Case extends React.Component {
               </p>
             </div>
           </div>
-          <div class="alert alert-dismissible alert-success">
-            Refer the <strong>Legal Dictionary</strong> to understand a term. <Link to="help" class="alert-link">Click here</Link>.
+          <div class="cta-div">
+            <p class="cta-further-options"><strong>Further options</strong></p>
+            <img src="../../media/images/cta-arrow.png" class="cta-arrow"/>
+            <Link to="help" class="cta-button">
+              Refer Legal Dictionary
+            </Link>
           </div>
         </div>
       </section>

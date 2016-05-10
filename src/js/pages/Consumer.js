@@ -29,8 +29,12 @@ export default class Consumer extends React.Component {
             <li>every other association of persons whether registered under the Societies Registration Act, 1860 (21 of 1860) or no</li>
           </ul>
         </div>
-        <div class="alert alert-dismissible alert-success">
-          Refer the <strong>Consumer Protection Act</strong> to verify your understanding. <Link to="act" class="alert-link">Click here</Link>.
+        <div class="cta-div">
+          <p class="cta-further-options"><strong>Further options</strong></p>
+          <img src="../../media/images/cta-arrow.png" class="cta-arrow"/>
+          <Link to="act" class="cta-button">
+            Refer Consumer Protection Act
+          </Link>
         </div>
         <br/>
         <h4>Consumer Rights</h4>
@@ -44,14 +48,18 @@ export default class Consumer extends React.Component {
           <li>right to consumer education</li>
         </ul>
         <br/>
-        <div class="alert alert-dismissible alert-info">
-          You can <strong>File a Consumer Complaint</strong> if you feel any of these rights have been violated. <Link to="case/complaint" class="alert-link">Click here</Link>.
-        </div>
-        <div class="alert alert-dismissible alert-info">
-          Understand Jurisdiction to confirm at which level you need to file a case. Click here.
-        </div>
-        <div class="alert alert-dismissible alert-success">
-          Want more information on <strong>Types of Cases and Remedies</strong>? <Link to="case" class="alert-link">Click here</Link>.
+        <div class="cta-div">
+          <p class="cta-further-options"><strong>Further options</strong></p>
+          <img src="../../media/images/cta-arrow.png" class="cta-arrow"/>
+          <Link to="help" class="cta-button">
+            File a Consumer Complaint
+          </Link>
+          <Link to="help" class="cta-button">
+            Understand Jurisdiction
+          </Link>
+          <Link to="help" class="cta-button">
+            Types of Cases and Remedies
+          </Link>
         </div>
       </section>
     )

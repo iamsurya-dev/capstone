@@ -100,8 +100,12 @@ export default class extends React.Component {
                   </li>
                 </ul>
               </div>
-              <div class="alert alert-dismissible alert-info">
-                Refer the <Link to="case/complaint" class="alert-link">Forms tab</Link> to view and download the above mentioned forms
+              <div class="cta-div">
+                <p class="cta-further-options"><strong>Further options</strong></p>
+                <img src="../../media/images/cta-arrow.png" class="cta-arrow"/>
+                <Link to="case/complaint" class="cta-button">
+                  Refer Forms tab
+                </Link>
               </div>
             </div>
             : null
