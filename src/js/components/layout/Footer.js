@@ -29,7 +29,7 @@ export default class Footer extends React.Component {
       padding: "0px",
     }
     const footerColStyle1 = {
-      padding: "0px",
+      paddingLeft: "16px",
     }
     const footerColStyle2 = {
       marginTop: "-23px",
@@ -44,22 +44,12 @@ export default class Footer extends React.Component {
         <div class="container">
           <div class="row">
             <div class="col-md-12" style={footerConstStyle}>
-              <p>Feeling lost? Check these options out!</p>
+              <p><strong>Useful Links:</strong></p>
             </div>
           </div>
           <div class="row">
             <div class="" style={footerColStyle1}>
               <ul class="nav navbar-nav">
-                <li style={footerItemStyle}>
-                  <img src="./media/images/Accessibility.png" style={iconStyle}/>
-                  <br/>
-                  <span>Accessibilty</span>
-                </li>
-                <li style={footerItemStyle}>
-                  <img src="./media/images/Careers.png" style={iconStyle}/>
-                  <br/>
-                  <span>Careers</span>
-                </li>
                 <li style={footerItemStyle}>
                   <img src="./media/images/Contact Us.png" style={iconStyle}/>
                   <br/>
@@ -73,7 +63,17 @@ export default class Footer extends React.Component {
                 <li style={footerItemStyle}>
                   <img src="./media/images/Legal Vocab.png" style={iconStyle}/>
                   <br/>
-                  <span>Legal Vocabulary</span>
+                  <span>Legal Dictionary</span>
+                </li>
+                <li style={footerItemStyle}>
+                  <img src="./media/images/Careers.png" style={iconStyle}/>
+                  <br/>
+                  <span>Careers</span>
+                </li>
+                <li style={footerItemStyle}>
+                  <img src="./media/images/Accessibility.png" style={iconStyle}/>
+                  <br/>
+                  <span>Accessibilty</span>
                 </li>
                 <li style={footerItemStyle}>
                   <img src="./media/images/Privacy Policy.png" style={iconStyle}/>
@@ -94,7 +94,7 @@ export default class Footer extends React.Component {
             </div>
             <div class="navbar-right" style={footerColStyle2}>
               <div class="row" style={relatedLinksStyle}>
-                <p>Related Links:</p>
+                <p><strong>Related Links:</strong></p>
                 <div class="col-md-6" style={relatedLinks}>
                   <span>Aeraat</span><br/>
                   <span>Confonet</span><br/>
@@ -111,7 +111,7 @@ export default class Footer extends React.Component {
           <br/>
           <div class="row">
             <div class="col-md-12" style={copyrightStyle}>
-              <p>TM etc  copyright managed by the justice league 2016</p>
+              <p>Design Prototype by The Justice League, Copyright 2016</p>
             </div>
           </div>
         </div>

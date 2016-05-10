@@ -23,7 +23,7 @@ export default class Help extends React.Component {
     }
 
     const tabHelpStyle = {
-      marginTop: "-42px",
+
     }
 
     const linkHelpStyle = {
@@ -35,7 +35,15 @@ export default class Help extends React.Component {
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <img src="./media/images/help.jpg" alt="help" style={imgHelpStyle}/>
+              <h3>Help Center</h3>
+              <p>
+                This page will give you all the relevant information you need for blah
+              </p>
+            </div>
+          </div>
+          <br/>
+          <div class="row">
+            <div class="col-md-12">
               <ul class="nav nav-tabs" style={tabHelpStyle}>
                 <li class="active col-md-3"><a href="#faq" style={linkHelpStyle} data-toggle="tab">Frequently asked questions</a></li>
                 <li class="col-md-3"><a href="#legal" style={linkHelpStyle} data-toggle="tab">Legal Vocabulary</a></li>

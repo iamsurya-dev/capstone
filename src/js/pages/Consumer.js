@@ -47,6 +47,9 @@ export default class Consumer extends React.Component {
         <div class="alert alert-dismissible alert-info">
           You can <strong>File a Consumer Complaint</strong> if you feel any of these rights have been violated. <Link to="case/complaint" class="alert-link">Click here</Link>.
         </div>
+        <div class="alert alert-dismissible alert-info">
+          Understand Jurisdiction to confirm at which level you need to file a case. Click here.
+        </div>
         <div class="alert alert-dismissible alert-success">
           Want more information on <strong>Types of Cases and Remedies</strong>? <Link to="case" class="alert-link">Click here</Link>.
         </div>

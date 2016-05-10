@@ -159,6 +159,17 @@ a:hover {
 
 /* Help section */
 
+.help .nav-tabs>li>a {
+  background: lightgray;
+  color : #336699;
+}
+
+.help .nav-tabs>li.active>a {
+  border-top: 2px #336699 solid;
+  background: white;
+  color : black;
+}
+
 .help .help-box {
   width: 50%;
   margin-left: 22%;
@@ -184,10 +195,12 @@ a:hover {
   cursor: pointer;
 }
 
-#faq, #legal {
+#faq, #legal, #contact, #calendar {
   height: 30em;
   overflow-x: hidden;
   border: 1px lightgray solid;
+  border-top: transparent;
+  margin-right: 2px;
 }
 
 .hidden {
@@ -433,6 +446,13 @@ a:hover {
 
 
 /* Tribunal Page */
+.tribunal h1,
+.tribunal h2,
+.tribunal h3,
+.tribunal h4 {
+  color: #336699;
+}
+
 .tribunal-heading {
   color: #395c82;
   font-weight: bold;
@@ -455,6 +475,19 @@ a:hover {
   font-weight: bold;
 }
 
+.tribunal-jurisdiction-details {
+  border-top: 1px lightgray solid;
+}
+
+.tribunal-jurisdiction-img {
+  width: 81%;
+  margin-top: 20px;
+}
+
+.tribunal-jurisdiction-list {
+  list-style: none;
+}
+
 
 /* Complaint Page */
 
@@ -464,7 +497,7 @@ a:hover {
 }
 
 .complaint-tabs {
-  margin-top: -42px;
+
 }
 .complaint-main-link {
   color: black;
@@ -478,10 +511,24 @@ a:hover {
   cursor: pointer;
 }
 
+
+.consumer-complaint .nav-tabs>li>a {
+  background: lightgray;
+  color : #336699;
+}
+
+.consumer-complaint .nav-tabs>li.active>a {
+  border-top: 2px #336699 solid;
+  background: white;
+  color : black;
+}
+
 #types {
   height: 30em;
   overflow-x: hidden;
   border: 1px lightgray solid;
+  border-top: transparent;
+  margin-right: 2px;
 }
 
 .case-type h1,
@@ -493,12 +540,15 @@ a:hover {
 
 .consumer-complaint {
   margin-left: 10px;
+  margin-top: 10px;
 }
 
 #steps {
   height: 30em;
   overflow-x: hidden;
   border: 1px lightgray solid;
+  border-top: transparent;
+  margin-right: 2px;
 }
 
 .steps-complaint {
@@ -506,20 +556,42 @@ a:hover {
   margin-top: 10px;
 }
 .steps-complaint-img {
-  width: 5%;
+  width: 4%;
+  margin-top: 0.2em;
 }
 
 .steps-heading {
-  font-size: 18px;
+  font-size: 14px;
   margin-left: -19px;
   color: #336699;
   cursor: pointer;
   margin-top: 1px;
 }
 
-/*.steps-heading:hover {
+#lifecycle {
+  height: 30em;
+  overflow-x: hidden;
+  border: 1px lightgray solid;
+  border-top: transparent;
+  margin-right: 2px;
+}
 
-}*/
+.case-lifecycle-img {
+  width: 100%;
+}
+
+#forms {
+  height: 30em;
+  overflow-x: hidden;
+  border: 1px lightgray solid;
+  border-top: transparent;
+  margin-right: 2px;
+}
+
+.form-complaint {
+  margin-left: 10px;
+  margin-top: 10px;
+}
 
 .steps-div {
   margin-left: 51px;

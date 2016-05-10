@@ -36,7 +36,6 @@ export default class extends React.Component {
 
     return (
       <div class="consumer-complaint">
-        <h4>Types of Complaints</h4>
         <p>The Consumer Protection Act classifies complaints into the following categories</p>
         <div class="row">
           <div class="col-md-4">

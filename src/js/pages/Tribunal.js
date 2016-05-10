@@ -1,4 +1,5 @@
 import React from "react";
+import { IndexLink, Link } from "react-router";
 
 
 export default class Tribunal extends React.Component {
@@ -7,6 +8,7 @@ export default class Tribunal extends React.Component {
     return (
       <section class="tribunal">
         <div class="container">
+          <h2>About Us</h2>
           <h4 class="tribunal-heading">Who are we</h4>
           <div class="row">
             <div class="col-md-12">
@@ -27,7 +29,7 @@ export default class Tribunal extends React.Component {
           </div>
           <br/>
           <div class="alert alert-dismissible alert-success tribunal-dictionary">
-            * indicates that <strong>we encourage you</strong> to refer the <a href="#" class="alert-link">legal vocabulary</a> or the <a href="#" class="alert-link">Act</a> itself <strong>to get a clear understanding of the term in context of the Act/s</strong> of this <strong>tribunal</strong>.
+            Refer the <a src="help">Legal Dictionary</a> to understand complex terms.
           </div>
           <br/>
           <h4 class="tribunal-heading">What we do</h4>
@@ -56,11 +58,53 @@ export default class Tribunal extends React.Component {
             </ul>
           </div>
           <br/>
-          <h4 class="tribunal-heading">Learn More</h4><br/>
-          <a href="#" class="tribunal-links">Consumer Disputes Redressal Commission (State Commission)</a><br/><br/>
-          <a href="#" class="tribunal-links">Consumer Disputes Redressal Commission (District Forums)</a><br/><br/>
-          <a href="#" class="tribunal-links">Filing a complaint</a><br/><br/>
-          <a href="#" class="tribunal-links">Definition of roles</a><br/>
+          <h4 class="tribunal-heading">What we do</h4>
+          <div class="row">
+            <div class="col-md-12">
+              <p><strong>Heirarchy</strong></p>
+              <p>
+                The Act provides for the establishment of a three-tier structure for simple, speedy and effective consumer disputes redressal. All three agencies are quasi-judicial. The hierarchy from bottom to top is:
+              </p>
+              <ul class="tribunal-jurisdiction-list">
+                <li class="row">
+                  <div class="col-md-1">
+                    <img src="../../media/images/district.png" class="tribunal-jurisdiction-img"/>
+                  </div>
+                  <div class="col-md-9 tribunal-jurisdiction-details">
+                    <p><strong>District Forums</strong></p>
+                    <p>
+                      These are the lowest Consumer Courts in the chain of the three redressal agencies the Act mandates  that the State must constitute at least one District Forum in each and every district of the country. Consequently, this forum can entertain all complaints coming from that particular district.
+                    </p>
+                  </div>
+                </li>
+                <li class="row">
+                  <div class="col-md-1">
+                    <img src="../../media/images/state.png" class="tribunal-jurisdiction-img"/>
+                  </div>
+                  <div class="col-md-9 tribunal-jurisdiction-details">
+                    <p><strong>State Commissions</strong></p>
+                    <p>
+                      These are established at the State level and stand above District Forum in the hierarchy of Consumer Dispute Redressal Forums under the Act. State Commissions are empowered to deal with matters where the value of claim exceeds Rs. 20 lakhs, but does not go beyond Rs. 1 crore.
+                    </p>
+                  </div>
+                </li>
+                <li class="row">
+                  <div class="col-md-1">
+                    <img src="../../media/images/national.png" class="tribunal-jurisdiction-img"/>
+                  </div>
+                  <div class="col-md-9 tribunal-jurisdiction-details">
+                    <p><strong>National Commissions</strong></p>
+                    <p>
+                      It stands at the top of the hierarchy of all the three redressal agencies and is considered as an apex court because it oversees the functioning of State Commissions and District Forums. The National Commission can entertain all the matters where the value of service or goods exceed Rs. 1 crore.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <br/>
+          <h4 class="tribunal-heading">Learn More</h4>
+          <p>Want more information on Circuit Benches, Organization Chart or Members of NCDRC? Click here to find out.</p>
         </div>
       </section>
     );

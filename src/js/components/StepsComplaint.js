@@ -74,7 +74,7 @@ export default class extends React.Component {
               <div class="alert alert-dismissible alert-warning">
                 If these guidelines are not adhered to, then the application docket will not be accepted at the drop-off counter.
               </div>
-              <span>The following list of documents are mandated by law for submission at the central office.</span>
+              <p>The following list of documents are mandated by law for submission at the central office.</p>
               <div class="steps-bullets">
                 <ul>
                   <li>
@@ -101,7 +101,7 @@ export default class extends React.Component {
                 </ul>
               </div>
               <div class="alert alert-dismissible alert-info">
-                Refer the <Link to="#" class="alert-link">Forms tab</Link> to view and download the above mentioned forms
+                Refer the <Link to="case/complaint" class="alert-link">Forms tab</Link> to view and download the above mentioned forms
               </div>
             </div>
             : null
@@ -114,14 +114,11 @@ export default class extends React.Component {
           {
             this.state.steps3 ?
             <div class="steps-div">
-              <span>Before submitting the application docket at the drop-off counter, keep the following guidelines in mind -</span>
+              <p>Before submitting the application docket at the drop-off counter, keep the following guidelines in mind -</p>
               <div class="steps-bullets">
                 <ul>
                   <li>
                     Once the consumer complaint is accepted by the NCDRC, a notice of issue will be released to the opposing parties. Thereafter, any documents submitted should be in the order of 1 original and 3 copies.
-                  </li>
-                  <li>
-                    [talk about pt 5]
                   </li>
                   <li>
                     The NCDRC mandates submission of following -
@@ -131,10 +128,10 @@ export default class extends React.Component {
                       <li>X copies of the application packet where X is the number of opposite parties</li>
                     </ul>
                   </li>
-                  <li>
-                    pt 7,8,9 need clarification
-                  </li>
                 </ul>
+              </div>
+              <div class="alert alert-dismissible alert-warning">
+                In case you do not receive the free certified copy of court order, you must make a written application on Letter Head with signature & rubber stamp by counsel, stating that the first free certified copy has not been received either by the party-in-person or their counsel. The duplicate copy will be chargeable and will contain a declaration that the original was not received by the party-in-person or their counsel.
               </div>
             </div>
             : null

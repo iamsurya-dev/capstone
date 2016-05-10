@@ -54,7 +54,10 @@ export default class Nav extends React.Component {
                     <Link to="act" onClick={this.toggleCollapse.bind(this)}>Related Acts</Link>
                   </li>
                   <li>
-                    <Link to="case" onClick={this.toggleCollapse.bind(this)}>Case Information</Link>
+                    <Link to="consumer" onClick={this.toggleCollapse.bind(this)}>Consumer Rights</Link>
+                  </li>
+                  <li>
+                    <Link to="case" onClick={this.toggleCollapse.bind(this)}>Legal Recourse</Link>
                   </li>
                   <li>
                     <Link to="publications" onClick={this.toggleCollapse.bind(this)}>Publications</Link>
