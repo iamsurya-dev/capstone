@@ -34,7 +34,8 @@ export default class extends React.Component {
           <br/><br/>
           {
             this.state.steps1 ?
-            <div class="steps-div steps-bullets">
+            <div class="steps-div">
+            <div class="steps-bullets">
               <ul>
                 <li>
                   The NCDRC accepts consumer complaints of those goods and services whose value and/or compensation (if applicable) is greater than Rupees One Crore ( ₹ 1,00,00,000 ).
@@ -43,9 +44,13 @@ export default class extends React.Component {
                   It is mandatory to file the consumer complaint within a period of 2 years from the date the cause of action occurs.
                 </li>
                 <li>
-                  The consumer complaint can be filed on all working days (Monday to Friday) from 10.00 AM to 4.30 PM at the Central office. Please make sure to check for bank holidays before deciding to approach the central office.
+                  The consumer complaint can be filed on all working days (Monday to Friday) from 10.00 AM to 4.30 PM at the Central office.
                 </li>
               </ul>
+            </div>
+            <div class="alert alert-dismissible alert-warning">
+              Please make sure to check for bank holidays before deciding to approach the central office.
+            </div>
             </div>
             : null
           }
@@ -96,7 +101,7 @@ export default class extends React.Component {
                     <strong>Condonation of delay application</strong>. If the filing is being done after the cause of action date (i.e. 2 years after the occurrence of the incident), an application seeking forgiveness should also be attached.
                   </li>
                   <li>
-                    <strong>Demand Draft</strong>. A DD of Rupess Five Thousand ( ₹ 5,000 ) in favor of 'The Registrar, NCDRC, New Delhi'.
+                    <strong>Demand Draft</strong>. A DD of Rupees Five Thousand ( ₹ 5,000 ) in favor of 'The Registrar, NCDRC, New Delhi'.
                   </li>
                 </ul>
               </div>
@@ -131,6 +136,9 @@ export default class extends React.Component {
                       <li>3 copies of the application packet</li>
                       <li>X copies of the application packet where X is the number of opposite parties</li>
                     </ul>
+                  </li>
+                  <li>
+                    A complaint can be filed at the tribunal office in-person or it can be sent as a package through registered post.
                   </li>
                 </ul>
               </div>

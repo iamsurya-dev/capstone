@@ -56,7 +56,84 @@ export default class Help extends React.Component {
                   <FAQHelp/>
                 </div>
                 <div class="tab-pane fade" id="contact">
-                  <p>Food truck fixie locavore, accusamus mcsweeneys marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
+                  <div class="contact container">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <p>We highly encourage active communication with citizens. You can connect with us using the channels listed below.</p>
+                      </div>
+                    </div>
+                    <div class="row contact-tile">
+                      <div class="col-md-6 contact-indv-tile">
+                        <div class="row">
+                          <div class="col-md-12 contact-main-col">
+                            <div class="col-md-2 contact-image-col">
+                              <img src="./media/images/call.png" class="contact-image" alt="Contact"/>
+                            </div>
+                            <div class="col-md-10 contact-description">
+                              <p>
+                                Have a question?
+                                <br/>
+                                Call us now! 1800-SOLUTION
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 contact-indv-tile">
+                        <div class="row">
+                          <div class="col-md-12 contact-main-col">
+                            <div class="col-md-2 contact-image-col">
+                              <img src="./media/images/email.png" class="contact-image" alt="Contact"/>
+                            </div>
+                            <div class="col-md-10 contact-description">
+                              <p>
+                                Email us! Send us your queries on -
+                                <br/>
+                                askus@ncdrc.gov.in
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br/>
+                    <div class="row">
+                      <div class="col-md-10">
+                        <p>You can also visit the forum office in-person. We have highly qualified and motivated staff on-site to help and advise you.</p>
+                      </div>
+                    </div>
+                    <div class="row contact-tile">
+                      <div class="col-md-6 contact-indv-tile">
+                        <div class="row">
+                          <div class="col-md-10 contact-main-col">
+                            <div class="col-md-2 contact-image-col">
+                              <img src="./media/images/address.png" class="contact-image" alt="Contact"/>
+                            </div>
+                            <div class="col-md-8 contact-description">
+                              <p>
+                                Upbhokta Nyay Bhavan F-Block GPO Complex,<br/>
+                                INA New Delhi 110023
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 contact-indv-tile">
+                        <div class="row">
+                          <div class="col-md-10 contact-main-col">
+                            <div class="col-md-2 contact-image-col">
+                              <img src="./media/images/call-center.png" class="contact-image" alt="Contact"/>
+                            </div>
+                            <div class="col-md-8 contact-description">
+                              <p>
+                                Contact an Official at the Tribunal by <br/>booking an appointment
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="tab-pane fade" id="calendar">
                   <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeneys organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork.</p>

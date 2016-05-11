@@ -20,7 +20,7 @@ export default class ConsumerComplaint extends React.Component {
             <div class="col-md-12">
               <h3>Consumer Complaints</h3>
               <p>
-                This page will give you all the relevant information you need for understanding and filing consumer complaints. A consumer complaint can be filed by an individual by themselves, hiring a lawyer is not mandatory.
+                This page will give you all the relevant information you need for understanding and filing consumer complaints. A consumer complaint can be filed by an individual by themselves, hiring a lawyer is not mandatory. A complaint can be filed at the tribunal office in-person or it can be sent as a package through registered post.
               </p>
             </div>
           </div>
@@ -31,7 +31,7 @@ export default class ConsumerComplaint extends React.Component {
                 <li class="active col-md-3"><a href="#types" class="complaint-main-link" data-toggle="tab">Types of Complaints</a></li>
                 <li class="col-md-3"><a href="#steps" class="complaint-main-link" data-toggle="tab">Steps to File a Complaint</a></li>
                 <li class="col-md-3"><a href="#lifecycle" class="complaint-main-link" data-toggle="tab">Lifecyle of a Complaint</a></li>
-                <li class="col-md-3"><a href="#forms" class="complaint-main-link" data-toggle="tab">Forms, Fees etc.</a></li>
+                <li class="col-md-3"><a href="#forms" class="complaint-main-link" data-toggle="tab">Forms & Fees</a></li>
               </ul>
 
               <div id="myTabContent" class="tab-content">

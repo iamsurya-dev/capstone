@@ -14,7 +14,7 @@ export default class Tribunal extends React.Component {
             <div class="col-md-12">
               <p><strong>The Act</strong></p>
               <p>
-                The Consumer Protection Act, 1986 (In short,‘The Act’) is a social legislation that lays down the promotion and protection of consumer rights applicable to all goods* and services*. It provides for the establishment of consumer councils for settlements of consumer disputes. The territorial jurisdiction or legal power of the act extends to the whole of India except Jammu & Kashmir. If the cause of action arises outside of India, the matter cannot be tried in India under this Act.
+                The Consumer Protection Act, 1986 (In short,‘The Act’) is a social legislation that lays down the promotion and protection of consumer rights applicable to all goods and services. It provides for the establishment of consumer councils for settlements of consumer disputes. The territorial jurisdiction or legal power of the act extends to the whole of India except Jammu & Kashmir. If the cause of action arises outside of India, the matter cannot be tried in India under this Act.
               </p>
             </div>
           </div>
@@ -23,7 +23,7 @@ export default class Tribunal extends React.Component {
             <div class="col-md-12">
               <p><strong>The Tribunal</strong></p>
               <p>
-                Under the context of the Act, the National Consumer Disputes Redressal Commission (NCDRC) was constituted in the year 1988. The President of NCDRC is a sitting or retired Judge of the Supreme Court of India who is appointed in consultation with the Chief Justice of India*. The Chairman of NCDRC is Minister of Consumer Affairs in the Cabinet, The central tribunal office is head quartered at the capital city of New Delhi, India.
+                Under the context of the Act, the National Consumer Disputes Redressal Commission (NCDRC) was constituted in the year 1988. The President of NCDRC is a sitting or retired Judge of the Supreme Court of India who is appointed in consultation with the Chief Justice of India. The Chairman of NCDRC is Minister of Consumer Affairs in the Cabinet, The central tribunal office is head quartered at the capital city of New Delhi, India.
               </p>
             </div>
           </div>
@@ -62,7 +62,7 @@ export default class Tribunal extends React.Component {
             </ul>
           </div>
           <br/>
-          <h4 class="tribunal-heading">What we do</h4>
+          <h4 class="tribunal-heading">Tribunal Jurisdiction</h4>
           <div class="row">
             <div class="col-md-12">
               <p><strong>Heirarchy</strong></p>
@@ -77,7 +77,7 @@ export default class Tribunal extends React.Component {
                   <div class="col-md-9 tribunal-jurisdiction-details">
                     <p><strong>District Forums</strong></p>
                     <p>
-                      These are the lowest Consumer Courts in the chain of the three redressal agencies the Act mandates  that the State must constitute at least one District Forum in each and every district of the country. Consequently, this forum can entertain all complaints coming from that particular district.
+                      These are the lowest Consumer Courts in the chain. The Act mandates that a State must constitute at least one District Forum in each and every district of the country. Consequently, this forum can entertain all complaints coming from that particular district. A district forum can admit matters for claims upto ₹ 20 lakh.
                     </p>
                   </div>
                 </li>
@@ -88,7 +88,7 @@ export default class Tribunal extends React.Component {
                   <div class="col-md-9 tribunal-jurisdiction-details">
                     <p><strong>State Commissions</strong></p>
                     <p>
-                      These are established at the State level and stand above District Forum in the hierarchy of Consumer Dispute Redressal Forums under the Act. State Commissions are empowered to deal with matters where the value of claim exceeds Rs. 20 lakhs, but does not go beyond Rs. 1 crore.
+                      These are established at the State level and stand above District Forum in the hierarchy. State Commissions are empowered to deal with matters where the value of claim exceeds ₹ 20 lakh, but does not go beyond ₹ 1 crore.
                     </p>
                   </div>
                 </li>
@@ -99,7 +99,7 @@ export default class Tribunal extends React.Component {
                   <div class="col-md-9 tribunal-jurisdiction-details">
                     <p><strong>National Commissions</strong></p>
                     <p>
-                      It stands at the top of the hierarchy of all the three redressal agencies and is considered as an apex court because it oversees the functioning of State Commissions and District Forums. The National Commission can entertain all the matters where the value of service or goods exceed Rs. 1 crore.
+                      It stands at the top of the hierarchy of all the three redressal agencies and is considered as an apex court because it oversees the functioning of State Commissions and District Forums. The National Commission can entertain all the matters where the value of service or goods exceed ₹ 1 crore.
                     </p>
                   </div>
                 </li>

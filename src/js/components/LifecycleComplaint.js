@@ -7,7 +7,7 @@ export default class extends React.Component {
 
     return(
       <div class="col-md-12">
-        <br/><br/>
+        <br/><br/>  
         <img src="../../media/images/Case Lifecycle.png" class="case-lifecycle-img"/>
       </div>
     )

@@ -44,7 +44,7 @@ export default class Contact extends React.Component {
           <h4>Contact Us</h4>
           <div class="row">
             <div class="col-md-12">
-              <p>We highly encourage active communication with citizens. You can conntect with us using the channels listed below.</p>
+              <p>We highly encourage active communication with citizens. You can connect with us using the channels listed below.</p>
             </div>
           </div>
           <div class="row contact-tile">

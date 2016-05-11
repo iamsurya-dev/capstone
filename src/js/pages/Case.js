@@ -15,7 +15,7 @@ export default class Case extends React.Component {
           <div class="row">
             <div class="col-md-12">
               <p>
-                As per the structure of the Consumer Protection Act, 1986, a person shall find himself/herself in the following four situations. The Court has the power to do either of these ‘suo moto’ or on its own, but typically is carried out by the individual himself/herself. These are filing a complaint, filing an appeal, transfer application, revision petition.
+                As per the structure of the Consumer Protection Act, 1986; a person shall find themselves in the following four situations. Click on the tiles to understand the categories, process steps, documentation, fees and limitations of each type of case.
               </p>
             </div>
           </div>

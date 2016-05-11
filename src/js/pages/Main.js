@@ -229,7 +229,7 @@ export default class Main extends React.Component {
                     </div>
                     <div class="causelist-img">
                       <div style={tileDescriptionStyle}>
-                        <p>Understand the definition of a consumer and their rights.</p>
+                        <p>Understand Consumer Rights and definition of a Consumer</p>
                       </div>
                     </div>
                   </Link>
@@ -241,7 +241,7 @@ export default class Main extends React.Component {
                     </div>
                     <div class="case-type-img">
                       <div style={tileDescriptionStyle}>
-                        <p>Find out options and remedies available for consumer grievances</p>
+                        <p>Find Legal Recourse available for Consumer grievances</p>
                       </div>
                     </div>
                   </Link>
