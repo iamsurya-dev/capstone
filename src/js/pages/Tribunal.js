@@ -9,7 +9,7 @@ export default class Tribunal extends React.Component {
     return (
       <section class="tribunal">
         <div class="container">
-          <h2>About Us</h2>
+          <h2><strong>About Us</strong></h2>
           <br/>
           <h4 class="tribunal-heading">Who are we?</h4>
           <div class="row">

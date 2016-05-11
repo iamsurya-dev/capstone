@@ -8,7 +8,7 @@ export default class Case extends React.Component {
     return (
       <section class="cases">
         <div class="container">
-          <h2>How to file a case?</h2>
+          <h2><strong>How to file a case?</strong></h2>
           <p>A consumer can file a case if one or more of their rights are violated. There are four ways a person can file a case with the National Consumer Disputes Redressal Commission (NCDRC) or its affiliated bodies. Read through the page to understand types of cases and judgements.</p>
           <br/>
           <h4>Types of Cases</h4>

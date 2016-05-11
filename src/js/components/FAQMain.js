@@ -13,7 +13,7 @@ export default class extends React.Component {
       display: "inline-block",
       marginTop: "9px",
       marginBottom: "9px",
-      fontSize: "13px",
+      fontSize: "14px",
     }
     return (
       <Link to="help" class="col-md-12 faq-questions">

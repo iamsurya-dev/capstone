@@ -11,16 +11,17 @@ export default class Header extends React.Component {
     };
     const headerStyle = {
       margin: "3px 0px 2px 28px",
-      fontSize: "16px",
+      fontSize: "18px",
+      color: "#212121",
     }
     const headerDetailsStyle = {
       marginLeft: "28px",
-      fontSize: "12px",
+      fontSize: "14px",
     }
     const pageHeaderStyle = {
       margin: "28px 0 0 0",
       padding: "0px",
-      fontFamily: "'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+      fontFamily: "'Merriweather', 'Helvetica Neue', Helvetica, Arial, sans-serif",
       border: "none",
     }
     const viewOptionsHeaderStyle = {

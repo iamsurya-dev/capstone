@@ -6,7 +6,8 @@ export default class Footer extends React.Component {
   render() {
     const footerStyle = {
       marginTop: "25px",
-      backgroundColor: "#d5d5d5",
+      backgroundColor: "#636363",
+      color: "#212121",
     }
 
     const footerConstStyle = {
@@ -44,7 +45,7 @@ export default class Footer extends React.Component {
     const footerLinkStyle = {
       padding: "0",
       margin: "0",
-      color: "#666666",
+      color: "#212121",
     }
     return (
       <footer class="footer site-footer" style={footerStyle}>
@@ -58,7 +59,7 @@ export default class Footer extends React.Component {
             <div class="" style={footerColStyle1}>
               <ul class="nav navbar-nav">
                   <li style={footerItemStyle}>
-                    <Link to="contact" style={footerLinkStyle} class="footer-links">
+                    <Link to="contact" style={footerLinkStyle}>
                       <img src="./media/images/Contact Us.png" style={iconStyle}/>
                       <br/>
                       <span>Contact Us</span>

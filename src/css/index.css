@@ -9,6 +9,7 @@ h1,h2,h3,h4 {
 
 p,span,ul,li {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
 a:hover {
@@ -28,6 +29,11 @@ a:hover {
   height: 152px;
 }*/
 
+
+.nav-color {
+  background: #253494;
+  color: #ffffff;
+}
 
 /* Main Page */
 
@@ -49,7 +55,7 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
 
-  color: black;
+  color: #212121;
   margin: 0px;
   padding: 0px;
   border: 1px solid transparent;
@@ -58,7 +64,7 @@ a:hover {
 }
 
 .case-type-img:hover {
-  color: black;
+  color: #212121;
   font-weight: bold;
   text-decoration: none;
   opacity: 0.9;
@@ -70,7 +76,7 @@ a:hover {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  color: black;
+  color: #212121;
   margin: 0px;
   padding: 0px;
   border: 1px solid transparent;
@@ -79,7 +85,7 @@ a:hover {
 }
 
 .access-img:hover {
-  color: black;
+  color: #212121;
   font-weight: bold;
 
   text-decoration: none;
@@ -92,7 +98,7 @@ a:hover {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  color: black;
+  color: #212121;
   margin: 0px;
   padding: 0px;
   border: 1px solid transparent;
@@ -101,7 +107,7 @@ a:hover {
 }
 
 .act-img:hover {
-  color: black;
+  color: #212121;
   font-weight: bold;
 
   text-decoration: none;
@@ -114,7 +120,7 @@ a:hover {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  color: black;
+  color: #212121;
   margin: 0px;
   padding: 0px;
   border: 1px solid transparent;
@@ -123,7 +129,7 @@ a:hover {
 }
 
 .data-img:hover {
-  color: black;
+  color: #212121;
   font-weight: bold;
 
   text-decoration: none;
@@ -136,7 +142,7 @@ a:hover {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  color: black;
+  color: #212121;
   margin: 0px;
   padding: 0px;
   border: 1px solid transparent;
@@ -145,7 +151,7 @@ a:hover {
 }
 
 .dictionary-img:hover {
-  color: black;
+  color: #212121;
   font-weight: bold;
 
   text-decoration: none;
@@ -158,7 +164,7 @@ a:hover {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  color: black;
+  color: #212121;
   margin: 0px;
   padding: 0px;
   border: 1px solid transparent;
@@ -167,7 +173,7 @@ a:hover {
 }
 
 .causelist-img:hover {
-  color: black;
+  color: #212121;
   font-weight: bold;
 
   text-decoration: none;
@@ -181,27 +187,34 @@ a:hover {
 
 .faq-questions {
   border: 1px lightgray solid;
-  color: black;
+  color: #212121;
 }
 
 .faq-questions:hover {
   background-color: #D3D3D3;
-  color: black;
+  color: #212121;
 }
 
 /* Help section */
 
 .help .nav-tabs>li>a {
   background: lightgray;
-  color : #336699;
+  color : #253494;
 }
 
 .help h2 {
-  color: #336699;
+  color: #253494;
+}
+
+.help p,
+.help span,
+.help ul,
+.help li {
+  font-size: 16px;
 }
 
 .help .nav-tabs>li.active>a {
-  border-top: 2px #336699 solid;
+  border-top: 2px #253494 solid;
   background: white;
   color : black;
 }
@@ -227,7 +240,7 @@ a:hover {
 
 .help-box .panel-body:hover {
   color: #ffffff;
-  background-color: #395c82;
+  background-color: #253494;
   cursor: pointer;
 }
 
@@ -260,7 +273,7 @@ a:hover {
   cursor: pointer;
 }
 .answer {
-  border-left: 2px #336699 solid;
+  border-left: 2px #253494 solid;
   margin-left: 65px;
 }
 
@@ -297,7 +310,7 @@ a:hover {
 }
 
 .legal-help .letters-legal:hover a.link-legal {
-  background-color: #395c82;
+  background-color: #253494;
   color: #ffffff;
   cursor: pointer;
 }
@@ -337,7 +350,7 @@ a:hover {
 }
 
 .dyk-heading-section {
-  background-color: #395c82;
+  background-color: #253494;
   color: #fff;
   width: auto;
   float: left;
@@ -364,7 +377,7 @@ a:hover {
 
 .dyk-para {
   margin-left: 70px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .dyk-para-align1 {
@@ -468,18 +481,26 @@ a:hover {
 .cases h2,
 .cases h3,
 .cases h4 {
-  color: #336699;
+  color: #253494;
 }
+
+.cases p,
+.cases span,
+.cases ul,
+.cases li {
+  font-size: 16px;
+}
+
 .case-tiles {
   border: 1px #e0e0e0 solid;
   background-color: #e0e0e0;
-  color: black;
+  color: #212121;
   height: 184px;
 }
 
 .case-tiles:hover,
 .case-tiles:focus {
-  color: black;
+  color: #212121;
   font-weight: 600;
   box-shadow: 2px 2px grey;
   text-decoration: none;
@@ -494,7 +515,7 @@ a:hover {
 }
 
 .remedy-title {
-  color: #336699;
+  color: #253494;
   border-bottom: 1px lightgray solid;
 }
 
@@ -504,12 +525,18 @@ a:hover {
 .tribunal h2,
 .tribunal h3,
 .tribunal h4 {
-  color: #336699;
+  color: #253494;
+}
+
+.tribunal p,
+.tribunal span,
+.tribunal ul,
+.tribunal li {
+  font-size: 16px;
 }
 
 .tribunal-heading {
-  color: #395c82;
-  font-weight: bold;
+  color: #253494;
 }
 
 .tribunal-dictionary {
@@ -522,7 +549,7 @@ a:hover {
 }
 
 .tribunal-links {
-  color: #395c82;
+  color: #253494;
 }
 
 .tribunal-links:hover {
@@ -555,7 +582,7 @@ a:hover {
 
 }
 .complaint-main-link {
-  color: black;
+  color: #212121;
 }
 
 .complaint-main-link:hover {
@@ -569,11 +596,11 @@ a:hover {
 
 .consumer-complaint .nav-tabs>li>a {
   background: lightgray;
-  color : #336699;
+  color : #253494;
 }
 
 .consumer-complaint .nav-tabs>li.active>a {
-  border-top: 2px #336699 solid;
+  border-top: 2px #253494 solid;
   background: white;
   color : black;
 }
@@ -590,7 +617,14 @@ a:hover {
 .case-type h2,
 .case-type h3,
 .case-type h4 {
-  color: #336699;
+  color: #253494;
+}
+
+.case-type p,
+.case-type span,
+.case-type ul,
+.case-type li {
+  font-size: 16px;
 }
 
 .consumer-complaint {
@@ -618,7 +652,7 @@ a:hover {
 .steps-heading {
   font-size: 14px;
   margin-left: -19px;
-  color: #336699;
+  color: #253494;
   cursor: pointer;
   margin-top: 1px;
 }
@@ -652,7 +686,7 @@ a:hover {
   margin-left: 51px;
 }
 .steps-bullets {
-  border-left: 2px #336699 solid;
+  border-left: 2px #253494 solid;
 }
 
 /* Consumer Page */
@@ -661,9 +695,15 @@ a:hover {
 .consumer h2,
 .consumer h3,
 .consumer h4 {
-  color: #336699;
+  color: #253494;
 }
 
+.consumer p,
+.consumer span,
+.consumer ul,
+.consumer li {
+  font-size: 16px;
+}
 .consumer-list {
   margin-left: -21px;
 }
@@ -683,24 +723,25 @@ a:hover {
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
-  border: 1px #336699 solid;
+  border: 1px #253494 solid;
   text-align: center;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
-  color: #336699;
+  color: #253494;
 }
 
 .cta-button:hover {
   color: #ffffff;
-  background-color: #336699;
+  background-color: #253494;
   cursor: pointer;
 }
 
 
 .viewing-header {
-  background-color: lightgray;
+  background-color: #636363;
+  color: #ffffff;
   position: absolute;
   margin: 0;
   padding: 0;

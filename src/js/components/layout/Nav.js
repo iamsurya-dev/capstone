@@ -21,7 +21,8 @@ export default class Nav extends React.Component {
       marginLeft: "68px",
     }
     const navContainerStyle = {
-      fontSize: "14px",
+      fontSize: "18px",
+      color: "#ffffff",
     }
     const homeButtonImgStyle = {
       width: "25px",
@@ -40,7 +41,7 @@ export default class Nav extends React.Component {
 
 
     return (
-      <nav class="navbar navbar-inverse" role="navigation">
+      <nav class="navbar navbar-inverse nav-color" role="navigation">
             <div class="container" style={navContainerStyle}>
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">

@@ -30,11 +30,11 @@ export default class Main extends React.Component {
     const quickLinkRowStyle1 = {
       height: "98px",
       background: "lightgray",
-      fontSize: "13px",
+      fontSize: "14px",
     }
     const quickLinkRowStyle2 = {
       height: "98px",
-      fontSize: "13px",
+      fontSize: "14px",
     }
     const quickLinkColStyle = {
       marginTop: "10px",
@@ -81,12 +81,12 @@ export default class Main extends React.Component {
     const imgHeadingStyle = {
       color: "black",
       textAlign: "center",
-      fontSize: "16px",
+      fontSize: "18px",
       marginTop: "10px",
     }
 
     const tileDescriptionStyle = {
-      background: "#6C6C6C",
+      background: "#636363",
       paddingLeft: "5px",
       margin: "0",
       color: "white",
@@ -94,7 +94,7 @@ export default class Main extends React.Component {
     }
 
     const faqColHeadingStyle = {
-      backgroundColor: "#395c82",
+      backgroundColor: "#253494",
       color: "#ffffff",
       borderColor: "lightgray",
       height: "2.5em",
@@ -126,10 +126,19 @@ export default class Main extends React.Component {
       paddingLeft: "10px",
       fontSize: "13px",
       marginTop: "10px",
+      paddingBottom: "8px"
+    }
+
+    const infoColStyle = {
+      border: "1px lightgray solid",
+      paddingLeft: "10px",
+      fontSize: "13px",
+      marginTop: "10px",
+      paddingBottom: "16px"
     }
 
     const newsHeaderColStyle = {
-      backgroundColor: "#395c82",
+      backgroundColor: "#253494",
       color: "#ffffff",
       borderColor: "lightgray",
       height: "2.5em",
@@ -169,7 +178,7 @@ export default class Main extends React.Component {
 
     const infoContentStyle = {
       marginTop: "13px",
-      marginBottom: "16px",
+      marginBottom: "10px",
     }
 
     const newsParaStyle = {
@@ -202,7 +211,7 @@ export default class Main extends React.Component {
     }
 
     const rtiColHeadingStyle = {
-      backgroundColor: "#395c82",
+      backgroundColor: "#253494",
       color: "#ffffff",
       borderColor: "lightgray",
       height: "2.5em",
@@ -395,10 +404,10 @@ export default class Main extends React.Component {
                         <div class="col-md-2"></div>
                         <div class="col-md-10" style={newsColStyle}>
                           <img src="./media/images/news.png" style={newsImageStyle} alt="latest news"/>
-                          <span>&nbsp;&nbsp;&nbsp;&nbsp; <strong>News</strong></span>
+                          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>News</strong></span>
                           <div style={newsContentStyle}>
                             <p style={newsParaStyle}>April 20, 2016, Consumer Protection Bill to address issues of online shoppers.</p>
-                            <Link to="dead"><p style={newsReadMoreStyle}>... Read more</p></Link>
+                            <br/><Link to="dead"><p style={newsReadMoreStyle}>... Read more</p></Link>
                           </div>
                         </div>
                       </div>
@@ -408,9 +417,9 @@ export default class Main extends React.Component {
                 <div class="col-md-6">
                   <div class="row">
                     <div class="col-md-12" style={maxHeightStyle}>
-                        <div class="col-md-12" style={newsColStyle}>
+                        <div class="col-md-12" style={infoColStyle}>
                           <img src="./media/images/announcement.png" style={newsImageStyle} alt="latest announcements"/>
-                          <span>&nbsp; &nbsp;&nbsp;&nbsp;<strong>Information</strong></span>
+                          <span>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<strong>Information</strong></span>
                           <div style={infoContentStyle}>
                             <p>April 14, 2016 has been declared as a national holiday. The forum offices will remain closed across the country.</p>
                           </div>

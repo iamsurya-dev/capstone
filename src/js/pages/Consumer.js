@@ -5,7 +5,7 @@ export default class Consumer extends React.Component {
   render() {
     return (
       <section class="consumer">
-        <h2>Can I file a case?</h2>
+        <h2><strong>Can I file a case?</strong></h2>
         <p>
           Every citizen of India has the right to file a case if they fit in the definition of a consumer. A case is generally filed when the person feels that one or more of their consumer rights have been violated. Read through the explanations below for a better understanding.
         </p>
