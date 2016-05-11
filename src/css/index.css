@@ -188,6 +188,10 @@ a:hover {
   color : #336699;
 }
 
+.help h2 {
+  color: #336699;
+}
+
 .help .nav-tabs>li.active>a {
   border-top: 2px #336699 solid;
   background: white;
@@ -231,6 +235,9 @@ a:hover {
   display: none;
 }
 
+.faq-icon-img {
+  width: 3.5em;
+}
 /*.nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   cursor: pointer;
@@ -241,12 +248,16 @@ a:hover {
   cursor: pointer;
 }
 
+.question {
+  cursor: pointer;
+}
 .answer {
-  border-left: 3px lightgray solid;
-  margin-left: 35px;
+  border-left: 2px #336699 solid;
+  margin-left: 65px;
 }
 
 .content-question {
+  margin-top: 10px;
   margin-bottom: 15px;
 }
 
@@ -363,6 +374,7 @@ a:hover {
 /* Contact Us Page*/
 .contact-tile {
   background-color: #e0e0e0;
+  width: 98%;
 }
 .contact-main-col {
   margin-top: 10px;
@@ -380,6 +392,12 @@ a:hover {
 .contact-image {
   width: 50%;
   margin-top: -2px;
+  margin-left: 20px;
+}
+
+.contact-image-2 {
+  width: 41%;
+  margin-top: 1px;
   margin-left: 20px;
 }
 .contact-description {
@@ -429,6 +447,10 @@ a:hover {
 .forms-submit {
   float: right;
   margin-right: 20px;
+}
+
+.contact-help {
+  margin-left: 10px;
 }
 
 
@@ -665,4 +687,28 @@ a:hover {
   color: #ffffff;
   background-color: #336699;
   cursor: pointer;
+}
+
+
+.viewing-header {
+  background-color: lightgray;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  width: 100%;
+  top: 0;
+  font-size: 11px;
+}
+.viewing-dropdown {
+  background: transparent;
+  padding: 0;
+  padding-right: 2px;
+}
+.viewing-options-text {
+  margin: 0;
+}
+
+.screen-reader {
+  text-decoration: underline;
 }

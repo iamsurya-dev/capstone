@@ -5,172 +5,85 @@ export default class extends React.Component {
   constructor() {
     super();
     this.state = {
-      faqMain: true,
-    }
+      faq1: false,
+      faq2: false,
+      faq3: false,
+      faq4: false,
+      faq5: false,
+    };
   }
 
-  toggleFaqMain() {
-    const faqMain = !this.state.faqMain;
-    this.setState({faqMain});
+  onFaq1Click() {
+    this.setState({faq1: !this.state.faq1});
   }
-
-  setFaqMainTrue() {
-    const faqMain = true;
-    this.setState({faqMain});
+  onFaq2Click() {
+    this.setState({faq2: !this.state.faq2});
+  }
+  onFaq3Click() {
+    this.setState({faq3: !this.state.faq3});
+  }
+  onFaq4Click() {
+    this.setState({faq4: !this.state.faq4});
+  }
+  onFaq5Click() {
+    this.setState({faq5: !this.state.faq5});
   }
 
 
   render() {
     const { faqMain } = this.state;
-    const faqMainClass = faqMain ? "shown" : "hidden";
-    const faqDetailsClass = faqMain ? "hidden" : "shown container";
 
     return (
       <div>
-        <div className={faqMainClass}>
+        <br/>
+        <div class="content-question container">
           <div class="row">
-            <div class="col-md-6">
-              <div class="panel panel-default help-box">
-                <div class="panel-body" onClick={this.toggleFaqMain.bind(this)}>
-                  <p>Information on Courts</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="panel panel-default help-box">
-                <div class="panel-body" onClick={this.toggleFaqMain.bind(this)}>
-                  <p>Information on Forms</p>
-                </div>
-              </div>
+            <div class="col-md-10 question" onClick={this.onFaq1Click.bind(this)}>
+              <img src="../../media/images/steps-complaint.png" class="col-md-1 faq-icon-img"/>
+              <p><strong>What is the qualification of the judges who will be hearing my complaint?</strong></p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="panel panel-default help-box">
-                <div class="panel-body" onClick={this.toggleFaqMain.bind(this)}>
-                  <p>Information on Judges</p>
+          {
+            this.state.faq1 ?
+              <div class="row">
+                <div class="col-md-10 answer">
+                  <p>
+                    The Act stipulates the qualifications of judges for the National Commission under Section 20(1) as: <br/>
+                    <ul>
+                      <li>a person who is or has been a Judge of the Supreme Court, to be appointed by the Central Government, who shall be its President; provided that no appointment under this clause shall be made except after consultation with the Chief Justice of India;
+                      </li>
+                      <li>
+                      not less than four, and not more than such number of members, as may be prescribed, and one of whom shall be a woman, who shall have the following qualifications, namely:—
+                        <ul>
+                          <li>be not less than thirty-five years of age;
+                          </li>
+                          <li>
+                            possess a bachelors degree from a recognised university; and
+                          </li>
+                          <li>
+                            be persons of ability, integrity and standing and have adequate knowledge and experience of at problems relating to economics, law, commerce, accountancy, industry, public affairs or administration:
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    Provided that not more than fifty per cent. of the members shall be from amongst the persons having a judicial background.
+                    <br/>
+                    The Section further elaborates on expression persons having judicial background'' and cases when a person shall be disqualified for appointment as well as their appointment. Click here to read the entire section.
+                  </p>
                 </div>
               </div>
-            </div>
-            <div class="col-md-6">
-              <div class="panel panel-default help-box">
-                <div class="panel-body" onClick={this.toggleFaqMain.bind(this)}>
-                  <p>Legal Aid</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="panel panel-default help-box">
-                <div class="panel-body" onClick={this.toggleFaqMain.bind(this)}>
-                  <p>Filing a Case</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6" onClick={this.toggleFaqMain.bind(this)}>
-              <div class="panel panel-default help-box">
-                <div class="panel-body" onClick={this.toggleFaqMain.bind(this)}>
-                  <p>Questions about the Act</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="panel panel-default help-box">
-                  <div class="panel-body" onClick={this.toggleFaqMain.bind(this)}>
-                    <p>Filing a Case</p>
-                  </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="panel panel-default help-box">
-                  <div class="panel-body" onClick={this.toggleFaqMain.bind(this)}>
-                    <p>Filing a Case</p>
-                  </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="panel panel-default help-box">
-                  <div class="panel-body" onClick={this.toggleFaqMain.bind(this)}>
-                    <p>Filing a Case</p>
-                  </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="panel panel-default help-box">
-                  <div class="panel-body" onClick={this.toggleFaqMain.bind(this)}>
-                    <p>Filing a Case</p>
-                  </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="panel panel-default help-box">
-                  <div class="panel-body" onClick={this.toggleFaqMain.bind(this)}>
-                    <p>Filing a Case</p>
-                  </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="panel panel-default help-box">
-                  <div class="panel-body" onClick={this.toggleFaqMain.bind(this)}>
-                    <p>Filing a Case</p>
-                  </div>
-              </div>
-            </div>
-          </div>
+              : null
+            }
         </div>
-        <div className={faqDetailsClass}>
+        <div class="content-question container">
           <div class="row">
-            <div class="col-md-11">
-              <a class="backFaq" onClick={this.toggleFaqMain.bind(this)}>BACK</a>
+            <div class="col-md-10 question" onClick={this.onFaq2Click.bind(this)}>
+              <img src="../../media/images/steps-complaint.png" class="col-md-1 faq-icon-img"/>
+              <p><strong>Can I file the case on my own or do I need to engage a lawyer? Additionally can I file it on behalf of someone else?</strong></p>
             </div>
           </div>
-          <div class="content-question">
-            <div class="row">
-              <div class="col-md-10 question">
-                <p><strong>What is the qualification of the judges who will be hearing my complaint?</strong></p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-10 answer">
-                <p>
-                  The Act stipulates the qualifications of judges for the National Commission under Section 20(1) as: <br/>
-                  <ul>
-                    <li>a person who is or has been a Judge of the Supreme Court, to be appointed by the Central Government, who shall be its President; provided that no appointment under this clause shall be made except after consultation with the Chief Justice of India;
-                    </li>
-                    <li>
-                    not less than four, and not more than such number of members, as may be prescribed, and one of whom shall be a woman, who shall have the following qualifications, namely:—
-                      <ul>
-                        <li>be not less than thirty-five years of age;
-                        </li>
-                        <li>
-                          possess a bachelors degree from a recognised university; and
-                        </li>
-                        <li>
-                          be persons of ability, integrity and standing and have adequate knowledge and experience of at problems relating to economics, law, commerce, accountancy, industry, public affairs or administration:
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                  Provided that not more than fifty per cent. of the members shall be from amongst the persons having a judicial background.
-                  <br/>
-                  The Section further elaborates on expression persons having judicial background'' and cases when a person shall be disqualified for appointment as well as their appointment. Click here to read the entire section.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="content-question">
-            <div class="row">
-              <div class="col-md-10 question">
-                <p><strong>Can I file the case on my own or do I need to engage a lawyer? Additionally can I file it on behalf of someone else?</strong></p>
-              </div>
-            </div>
+          {
+          this.state.faq2 ?
             <div class="row">
               <div class="col-md-10 answer">
                 <p>
@@ -180,13 +93,18 @@ export default class extends React.Component {
                 </p>
               </div>
             </div>
-          </div>
-          <div class="content-question">
-            <div class="row">
-              <div class="col-md-10 question">
-                <p><strong>Do I need to pay a fee for filing the complaint? If yes in what manner and what is the amount?</strong></p>
-              </div>
+            : null
+          }
+        </div>
+        <div class="content-question container">
+          <div class="row">
+            <div class="col-md-10 question" onClick={this.onFaq3Click.bind(this)}>
+              <img src="../../media/images/steps-complaint.png" class="col-md-1 faq-icon-img"/>
+              <p><strong>Do I need to pay a fee for filing the complaint? If yes in what manner and what is the amount?</strong></p>
             </div>
+          </div>
+          {
+          this.state.faq3 ?
             <div class="row">
               <div class="col-md-10 answer">
                 <p>
@@ -194,13 +112,18 @@ export default class extends React.Component {
                 </p>
               </div>
             </div>
-          </div>
-          <div class="content-question">
-            <div class="row">
-              <div class="col-md-10 question">
-                <p><strong>Are other courts excluded from hearing consumer disputes?</strong></p>
-              </div>
+            : null
+          }
+        </div>
+        <div class="content-question container">
+          <div class="row">
+            <div class="col-md-10 question" onClick={this.onFaq4Click.bind(this)}>
+              <img src="../../media/images/steps-complaint.png" class="col-md-1 faq-icon-img"/>
+              <p><strong>Are other courts excluded from hearing consumer disputes?</strong></p>
             </div>
+          </div>
+          {
+          this.state.faq4 ?
             <div class="row">
               <div class="col-md-10 answer">
                 <p>
@@ -208,7 +131,27 @@ export default class extends React.Component {
                 </p>
               </div>
             </div>
+            :null
+          }
+        </div>
+        <div class="content-question container">
+          <div class="row">
+            <div class="col-md-10 question" onClick={this.onFaq5Click.bind(this)}>
+              <img src="../../media/images/steps-complaint.png" class="col-md-1 faq-icon-img"/>
+              <p><strong>Can the complaint be filed in any language?</strong></p>
+            </div>
           </div>
+          {
+          this.state.faq5 ?
+            <div class="row">
+              <div class="col-md-10 answer">
+                <p>
+                  No. The complaint must be filed in English. If it has been filed in any other language, a translated copy must be filed along with the original complaint. As per a notice issued on 17th July 2015 by the National Commission, such translated copies must be submitted at least two weeks before the date of the hearing.
+                </p>
+              </div>
+            </div>
+            :null
+          }
         </div>
       </div>
     );

@@ -9,12 +9,12 @@ export default class Tribunal extends React.Component {
       <section class="tribunal">
         <div class="container">
           <h2>About Us</h2>
-          <h4 class="tribunal-heading">Who are we</h4>
+          <h4 class="tribunal-heading">Who are we?</h4>
           <div class="row">
             <div class="col-md-12">
               <p><strong>The Act</strong></p>
               <p>
-                The Consumer Protection Act, 1986 (In short,‘The Act’) is a social legislation that lays down the promotion and protection of consumer rights applicable to all goods and services. It provides for the establishment of consumer councils for settlements of consumer disputes. The territorial jurisdiction or legal power of the act extends to the whole of India except Jammu & Kashmir. If the cause of action arises outside of India, the matter cannot be tried in India under this Act.
+                The Consumer Protection Act, 1986 (In short,‘The Act’) is a social legislation that lays down the promotion and protection of consumer rights applicable to all goods and services. It provides for the establishment of consumer councils for settlement of consumer disputes. The territorial jurisdiction or legal power of the act extends to the whole of India except Jammu & Kashmir. If the cause of action arises outside of India, the matter cannot be tried in India under this Act.
               </p>
             </div>
           </div>
@@ -36,12 +36,12 @@ export default class Tribunal extends React.Component {
             </Link>
           </div>
           <br/>
-          <h4 class="tribunal-heading">What we do</h4>
+          <h4 class="tribunal-heading">What we do?</h4>
           <div class="row">
             <div class="col-md-12">
               <p><strong>The Purpose</strong></p>
               <p>
-                The NCDRC and its affiliated bodies are dedicated towards bolstering, safeguarding and strenghtening consumer rights such as -
+                The NCDRC and its affiliated bodies are dedicated towards bolstering, safeguarding and strengthening consumer rights such as -
                 <ul>
                   <li>right to be protected against the marketing of goods and services which are hazardous to life and property;</li>
                   <li>right to be informed about the quality, quantity, potency, purity, standard and price of goods or services and unfair trade practices;</li>
@@ -107,8 +107,19 @@ export default class Tribunal extends React.Component {
             </div>
           </div>
           <br/>
-          <h4 class="tribunal-heading">Learn More</h4>
-          <p>Want more information on Circuit Benches, Organization Chart or Members of NCDRC? Click here to find out.</p>
+          <div class="cta-div">
+            <p class="cta-further-options"><strong>Further options</strong></p>
+            <img src="../../media/images/cta-arrow.png" class="cta-arrow"/>
+            <Link to="#" class="cta-button">
+              Circuit Benches
+            </Link>
+            <Link to="#" class="cta-button">
+              Organization Chart
+            </Link>
+            <Link to="#" class="cta-button">
+              Members of NCDRC
+            </Link>
+          </div>
         </div>
       </section>
     );

@@ -66,18 +66,18 @@ export default class extends React.Component {
               <div class="steps-bullets">
                 <ul>
                   <li>
-                    <strong>Language</strong> - the application docket should be filed in English only. If any other language is being used to file the complaint, then the application should be traslated to English.
+                    <strong>Language</strong> - the application packet should be filed in English only. If any other language is being used to file the complaint, then the application should be traslated to English.
                   </li>
                   <li>
                     <strong>Legibility</strong> - if any document in the application packet is not readable, it will not be accepted. Photo copies of any document should be legible..
                   </li>
                   <li>
-                    <strong>Format</strong> - the documents of the application docket should be typed, with double line spacing on one side of the paper.
+                    <strong>Format</strong> - the documents of the application packet should be typed, with double line spacing on one side of the paper.
                   </li>
                 </ul>
               </div>
               <div class="alert alert-dismissible alert-warning">
-                If these guidelines are not adhered to, then the application docket will not be accepted at the drop-off counter.
+                If these guidelines are not adhered to, then the application packet will not be accepted at the drop-off counter.
               </div>
               <p>The following list of documents are mandated by law for submission at the central office.</p>
               <div class="steps-bullets">
@@ -123,7 +123,7 @@ export default class extends React.Component {
           {
             this.state.steps3 ?
             <div class="steps-div">
-              <p>Before submitting the application docket at the drop-off counter, keep the following guidelines in mind -</p>
+              <p>Before submitting the application packet at the drop-off counter, keep the following guidelines in mind -</p>
               <div class="steps-bullets">
                 <ul>
                   <li>

@@ -9,7 +9,7 @@ export default class Case extends React.Component {
       <section class="cases">
         <div class="container">
           <h2>How to file a case?</h2>
-          <p>A consumer can file a case if one or more of their rights are violated. There are four ways a person can file a case with the National Consumer Disputes Redressal Commission (NCDRC) or its affiliated bodies. Read through the page to understand types of cases and remedies.</p>
+          <p>A consumer can file a case if one or more of their rights are violated. There are four ways a person can file a case with the National Consumer Disputes Redressal Commission (NCDRC) or its affiliated bodies. Read through the page to understand types of cases and judgements.</p>
           <br/>
           <h4>Types of Cases</h4>
           <div class="row">
@@ -67,7 +67,7 @@ export default class Case extends React.Component {
               <Link to="case" class="col-md-12 case-tiles">
                 <div>
                   <br/>
-                  <p class="case-tile-heading">Transfer Petition</p>
+                  <p class="case-tile-heading">Transfer Application</p>
                   <hr/>
                 </div>
                 <div class="case-tile-description">
@@ -89,16 +89,16 @@ export default class Case extends React.Component {
               View Consumer Rights
             </Link>
           </div>
-          <h4>Remedies Available</h4>
+          <h4>Judgements Available</h4>
           <p>
-            If a judge is convinced that the goods in question suffer from any of the defects specified in the complaint, or that any of the allegations contained in the complaint about the services are proven, an order will be issued for provision of one or more remedies.
+            If a judge is convinced that the goods in question suffer from any of the defects specified in the complaint, or that any of the allegations contained in the complaint about the services are proven, an order will be issued for provision of one or more judgements.
           </p>
           <br/>
           <div class="row">
             <div class="col-md-4">
               <p class="remedy-title">Award of Compensation</p>
               <p>
-                The opposite party will pay a compensation to the consumer for any loss or injury suffered by the consumer due to the negligence of the opposite party.
+                The opposite party will pay a compensation to the consumer for any loss or injury suffered by the consumer due to the negligence of the opposite party
               </p>
             </div>
             <div class="col-md-4">
@@ -131,7 +131,7 @@ export default class Case extends React.Component {
             <div class="col-md-4">
               <p class="remedy-title">Banning Hazardous Goods</p>
               <p>
-                The opposite party will stop the sale/production of hazardous goods or services. They will also pay compensation to the impacted consumers. A corrective advertisement will be issued at the cost of opposite party.
+                The opposite party will stop the sale/production of hazardous goods or services. They will also pay compensation to the impacted consumers. A corrective advertisement will be issued at the cost of opposite party
               </p>
             </div>
           </div>

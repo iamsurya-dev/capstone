@@ -18,7 +18,7 @@ export default class Header extends React.Component {
       fontSize: "12px",
     }
     const pageHeaderStyle = {
-      margin: "10px 0 0 0",
+      margin: "28px 0 0 0",
       padding: "0px",
       fontFamily: "'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif",
       border: "none",
@@ -29,9 +29,6 @@ export default class Header extends React.Component {
     }
     return (
       <header class="page-header" style={pageHeaderStyle} role="header">
-        <div style={viewOptionsHeaderStyle}>
-          <p>Viewing Options: Screen Reader | हिंदी | Text Size: A+  A-  A</p>
-        </div>
         <div class="container">
           <img src="./media/images/logo.jpg" style={logoStyle} alt="Logo"/>
           <h4 style={headerStyle}><strong>N</strong>ational <strong>C</strong>onsumer <strong>D</strong>isputes  <strong>R</strong>edressal <strong>C</strong>ommission</h4>

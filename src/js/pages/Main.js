@@ -62,7 +62,7 @@ export default class Main extends React.Component {
     }
     const imageQuickLinkStyle = {
       width: "60%",
-      marginTop: "5px",
+      marginTop: "20px",
       marginLeft: "10px",
     }
     const imageColStyle = {
@@ -363,7 +363,7 @@ export default class Main extends React.Component {
                       and Holiday Schedules
                       <br/>
                       <div style={linkStyle}>
-                        <a href="#">Court Calendar</a> | <a href="#">Circuit Benches</a> | <a href="#">Causlists</a>
+                        <a href="#">Court Calendar</a> | <a href="#">Circuit Benches</a> | <a href="#">Causelists</a>
                       </div>
                     </p>
                   </div>

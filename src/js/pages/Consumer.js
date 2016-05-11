@@ -23,10 +23,10 @@ export default class Consumer extends React.Component {
         <div class="alert alert-dismissible alert-warning">
           Other than an individual, the term 'person' includes:
           <ul class="consumer-list">
-            <li>a firm whether registered or not;</li>
-            <li>a Hindu undivided family;</li>
-            <li>a co-operative society;</li>
-            <li>every other association of persons whether registered under the Societies Registration Act, 1860 (21 of 1860) or no</li>
+            <li>a firm, whether registered or not</li>
+            <li>a Hindu undivided family</li>
+            <li>a co-operative society</li>
+            <li>every other association of persons whether registered under the Societies Registration Act, 1860 (21 of 1860) or not</li>
           </ul>
         </div>
         <div class="cta-div">
@@ -38,7 +38,7 @@ export default class Consumer extends React.Component {
         </div>
         <br/>
         <h4>Consumer Rights</h4>
-        <p>The National Consumer Disputes Redressal Commission (NCDRC) and its affiliated bodies are dedicated towards bolstering, safeguarding and strenghtening consumer rights such as -</p>
+        <p>The National Consumer Disputes Redressal Commission (NCDRC) and its affiliated bodies are dedicated towards bolstering, safeguarding and strengthening consumer rights such as -</p>
         <ul class="consumer-list">
           <li>right to be protected against the marketing of goods and services which are hazardous to life and property</li>
           <li>right to be informed about the quality, quantity, potency, purity, standard and price of goods or services and unfair trade practices</li>
@@ -58,7 +58,7 @@ export default class Consumer extends React.Component {
             Understand Jurisdiction
           </Link>
           <Link to="help" class="cta-button">
-            Types of Cases and Remedies
+            Types of Cases and Judgements
           </Link>
         </div>
       </section>

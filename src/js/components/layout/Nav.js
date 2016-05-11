@@ -34,7 +34,7 @@ export default class Nav extends React.Component {
     }
 
     const searchNavStyle = {
-      marginRight: "-51px",
+      marginRight: "-60px",
     }
     const helpClass = location.pathname.match(/^\/help/) ? "active" : "";
 
