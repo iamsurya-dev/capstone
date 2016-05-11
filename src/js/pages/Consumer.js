@@ -51,14 +51,14 @@ export default class Consumer extends React.Component {
         <div class="cta-div">
           <p class="cta-further-options"><strong>Further options</strong></p>
           <img src="../../media/images/cta-arrow.png" class="cta-arrow"/>
-          <Link to="help" class="cta-button">
-            File a Consumer Complaint
-          </Link>
-          <Link to="help" class="cta-button">
+          <Link to="tribunal" class="cta-button">
             Understand Jurisdiction
           </Link>
-          <Link to="help" class="cta-button">
+          <Link to="case" class="cta-button">
             Types of Cases and Judgements
+          </Link>
+          <Link to="case/complaint" class="cta-button">
+            File a Consumer Complaint
           </Link>
         </div>
       </section>

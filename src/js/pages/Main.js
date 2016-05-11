@@ -157,17 +157,19 @@ export default class Main extends React.Component {
     }
 
     const newsContentStyle = {
-      marginTop: "23px",
-      marginBottom: "5px",
+      marginTop: "13px",
+      marginBottom: "0px",
     }
 
     const newsReadMoreStyle = {
       textAlign: "right",
+      color: "#666666",
+      margin: "0",
     }
 
     const infoContentStyle = {
-      marginTop: "23px",
-      marginBottom: "28px",
+      marginTop: "13px",
+      marginBottom: "16px",
     }
 
     const newsParaStyle = {
@@ -195,7 +197,8 @@ export default class Main extends React.Component {
     const rtiMainColStyle = {
       marginLeft: "51px",
       width: "549px",
-      marginTop: "10px",
+      marginTop: "15px",
+      color: "#666666",
     }
 
     const rtiColHeadingStyle = {
@@ -363,7 +366,7 @@ export default class Main extends React.Component {
                       and Holiday Schedules
                       <br/>
                       <div style={linkStyle}>
-                        <a href="#">Court Calendar</a> | <a href="#">Circuit Benches</a> | <a href="#">Causelists</a>
+                        <Link to="dead">Court Calendar</Link> | <Link to="dead">Circuit Benches</Link> | <Link to="dead">Causelists</Link>
                       </div>
                     </p>
                   </div>
@@ -371,7 +374,7 @@ export default class Main extends React.Component {
               </div>
             </div>
           </div>
-
+          <br/>
           <div class="row">
             <div class="col-md-6" style={faqColStyle}>
               <div class="row">
@@ -395,7 +398,7 @@ export default class Main extends React.Component {
                           <span>&nbsp;&nbsp;&nbsp;&nbsp; <strong>News</strong></span>
                           <div style={newsContentStyle}>
                             <p style={newsParaStyle}>April 20, 2016, Consumer Protection Bill to address issues of online shoppers.</p>
-                            <p style={newsReadMoreStyle}>... Read more</p>
+                            <Link to="dead"><p style={newsReadMoreStyle}>... Read more</p></Link>
                           </div>
                         </div>
                       </div>
@@ -417,21 +420,23 @@ export default class Main extends React.Component {
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-12" style={rtiMainColStyle}>
-                  <div class="row">
-                    <div class="col-md-12" style={rtiColHeadingStyle}>
-                      <h4 style={rtiSpanHeadingStyle}>Right to Information</h4>
+                <Link to="dead">
+                  <div class="col-md-12" style={rtiMainColStyle}>
+                    <div class="row">
+                      <div class="col-md-12" style={rtiColHeadingStyle}>
+                        <h4 style={rtiSpanHeadingStyle}>Right to Information</h4>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12" style={rtiColQuestionStyle}>
+                        <span style={rtiQuestionStyle}>Right to Information Act 2005 - Understand the Act</span>
+                      </div>
+                      <div class="col-md-12" style={rtiColQuestionStyle}>
+                        <span style={rtiQuestionStyle}>Access the directory of officers</span>
+                      </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-md-12" style={rtiColQuestionStyle}>
-                      <span style={rtiQuestionStyle}>Right to Information Act 2005 - Understand the Act</span>
-                    </div>
-                    <div class="col-md-12" style={rtiColQuestionStyle}>
-                      <span style={rtiQuestionStyle}>Access the directory of officers</span>
-                    </div>
-                  </div>
-                </div>
+                </Link>
               </div>
             </div>
           </div>

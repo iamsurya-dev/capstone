@@ -105,13 +105,6 @@ export default class extends React.Component {
                   </li>
                 </ul>
               </div>
-              <div class="cta-div">
-                <p class="cta-further-options"><strong>Further options</strong></p>
-                <img src="../../media/images/cta-arrow.png" class="cta-arrow"/>
-                <Link to="case/complaint" class="cta-button">
-                  Refer Forms tab
-                </Link>
-              </div>
             </div>
             : null
           }

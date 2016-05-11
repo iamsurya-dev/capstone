@@ -43,8 +43,8 @@ export default class Help extends React.Component {
           <div class="row">
             <div class="col-md-12">
               <ul class="nav nav-tabs" style={tabHelpStyle}>
-                <li class="active col-md-3"><a href="#faq" style={linkHelpStyle} data-toggle="tab">Frequently asked questions</a></li>
-                <li class="col-md-3"><a href="#legal" style={linkHelpStyle} data-toggle="tab">Legal Vocabulary</a></li>
+                <li class="active col-md-3"><a href="#faq" style={linkHelpStyle} data-toggle="tab">Frequently Asked Questions</a></li>
+                <li class="col-md-3"><a href="#legal" style={linkHelpStyle} data-toggle="tab">Legal Dictionary</a></li>
                 <li class="col-md-3"><a href="#calendar" style={linkHelpStyle} data-toggle="tab">Calendar</a></li>
                 <li class="col-md-3"><a href="#contact" style={linkHelpStyle} data-toggle="tab">Contact Us</a></li>
               </ul>
@@ -57,7 +57,7 @@ export default class Help extends React.Component {
                   <ContactHelp/>
                 </div>
                 <div class="tab-pane fade" id="calendar">
-                  <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeneys organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork.</p>
+                  <p>This is the Calendar Page</p>
                 </div>
                 <div class="tab-pane fade" id="legal">
                   <LegalHelp/>

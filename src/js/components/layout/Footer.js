@@ -1,4 +1,5 @@
 import React from "react";
+import { IndexLink, Link } from "react-router";
 
 
 export default class Footer extends React.Component {
@@ -39,6 +40,12 @@ export default class Footer extends React.Component {
       textAlign: "center",
       fontSize: "11px",
     }
+
+    const footerLinkStyle = {
+      padding: "0",
+      margin: "0",
+      color: "#666666",
+    }
     return (
       <footer class="footer site-footer" style={footerStyle}>
         <div class="container">
@@ -50,45 +57,62 @@ export default class Footer extends React.Component {
           <div class="row">
             <div class="" style={footerColStyle1}>
               <ul class="nav navbar-nav">
+                  <li style={footerItemStyle}>
+                    <Link to="contact" style={footerLinkStyle} class="footer-links">
+                      <img src="./media/images/Contact Us.png" style={iconStyle}/>
+                      <br/>
+                      <span>Contact Us</span>
+                    </Link>
+                  </li>
+
                 <li style={footerItemStyle}>
-                  <img src="./media/images/Contact Us.png" style={iconStyle}/>
-                  <br/>
-                  <span>Contact Us</span>
+                  <Link to="help" style={footerLinkStyle}>
+                    <img src="./media/images/FAQs.png" style={iconStyle}/>
+                    <br/>
+                    <span>FAQs</span>
+                  </Link>
                 </li>
                 <li style={footerItemStyle}>
-                  <img src="./media/images/FAQs.png" style={iconStyle}/>
-                  <br/>
-                  <span>FAQs</span>
+                  <Link to="help" style={footerLinkStyle}>
+                    <img src="./media/images/Legal Vocab.png" style={iconStyle}/>
+                    <br/>
+                    <span>Legal Dictionary</span>
+                  </Link>
                 </li>
                 <li style={footerItemStyle}>
-                  <img src="./media/images/Legal Vocab.png" style={iconStyle}/>
-                  <br/>
-                  <span>Legal Dictionary</span>
+                  <Link to="dead" style={footerLinkStyle}>
+                    <img src="./media/images/Careers.png" style={iconStyle}/>
+                    <br/>
+                    <span>Careers</span>
+                  </Link>
                 </li>
                 <li style={footerItemStyle}>
-                  <img src="./media/images/Careers.png" style={iconStyle}/>
-                  <br/>
-                  <span>Careers</span>
+                  <Link to="dead" style={footerLinkStyle}>
+                    <img src="./media/images/Accessibility.png" style={iconStyle}/>
+                    <br/>
+                    <span>Accessibilty</span>
+                  </Link>
                 </li>
                 <li style={footerItemStyle}>
-                  <img src="./media/images/Accessibility.png" style={iconStyle}/>
-                  <br/>
-                  <span>Accessibilty</span>
+                  <Link to="dead" style={footerLinkStyle}>
+                    <img src="./media/images/Privacy Policy.png" style={iconStyle}/>
+                    <br/>
+                    <span>Privacy Policy</span>
+                  </Link>
                 </li>
                 <li style={footerItemStyle}>
-                  <img src="./media/images/Privacy Policy.png" style={iconStyle}/>
-                  <br/>
-                  <span>Privacy Policy</span>
+                  <Link to="dead" style={footerLinkStyle}>
+                    <img src="./media/images/Viewing Options.png" style={iconStyle}/>
+                    <br/>
+                    <span>Viewing Options</span>
+                  </Link>
                 </li>
                 <li style={footerItemStyle}>
-                  <img src="./media/images/Viewing Options.png" style={iconStyle}/>
-                  <br/>
-                  <span>Viewing Options</span>
-                </li>
-                <li style={footerItemStyle}>
-                  <img src="./media/images/Disclaimer.png" style={iconStyle}/>
-                  <br/>
-                  <span>Disclaimer</span>
+                  <Link to="contact" style={footerLinkStyle}>
+                    <img src="./media/images/Disclaimer.png" style={iconStyle}/>
+                    <br/>
+                    <span>Disclaimer</span>
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -8,6 +8,7 @@ import CaseType from "./pages/CaseType";
 import Consumer from "./pages/Consumer";
 import ConsumerComplaint from "./pages/ConsumerComplaint";
 import Contact from "./pages/Contact";
+import Dead from "./pages/Dead";
 import Help from "./pages/Help";
 import Layout from "./pages/Layout";
 import Main from "./pages/Main";
@@ -27,6 +28,7 @@ ReactDOM.render(
         <IndexRoute component={Case}></IndexRoute>
         <Route path="complaint" name="complaint" component={ConsumerComplaint}></Route>
       </Route>
+      <Route path="dead" name="dead" component={Dead}></Route>
       <Route path="tribunal" name="tribunal" component={Tribunal}></Route>
       <Route path="act" name="act" component={Act}></Route>
       <Route path="publications" name="publications" component={Publications}></Route>

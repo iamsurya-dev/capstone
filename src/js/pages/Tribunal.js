@@ -1,3 +1,4 @@
+
 import React from "react";
 import { IndexLink, Link } from "react-router";
 
@@ -9,6 +10,7 @@ export default class Tribunal extends React.Component {
       <section class="tribunal">
         <div class="container">
           <h2>About Us</h2>
+          <br/>
           <h4 class="tribunal-heading">Who are we?</h4>
           <div class="row">
             <div class="col-md-12">
@@ -23,7 +25,7 @@ export default class Tribunal extends React.Component {
             <div class="col-md-12">
               <p><strong>The Tribunal</strong></p>
               <p>
-                Under the context of the Act, the National Consumer Disputes Redressal Commission (NCDRC) was constituted in the year 1988. The President of NCDRC is a sitting or retired Judge of the Supreme Court of India who is appointed in consultation with the Chief Justice of India. The Chairman of NCDRC is Minister of Consumer Affairs in the Cabinet, The central tribunal office is head quartered at the capital city of New Delhi, India.
+                Under the context of the Act, the National Consumer Disputes Redressal Commission (NCDRC) was constituted in the year 1988. The President of NCDRC is a sitting or retired Judge of the Supreme Court of India who is appointed in consultation with the Chief Justice of India. The Chairman of NCDRC is Minister of Consumer Affairs in the Cabinet. The central tribunal office is head quartered at the capital city of New Delhi, India.
               </p>
             </div>
           </div>
@@ -97,7 +99,7 @@ export default class Tribunal extends React.Component {
                     <img src="../../media/images/national.png" class="tribunal-jurisdiction-img"/>
                   </div>
                   <div class="col-md-9 tribunal-jurisdiction-details">
-                    <p><strong>National Commissions</strong></p>
+                    <p><strong>National Commission</strong></p>
                     <p>
                       It stands at the top of the hierarchy of all the three redressal agencies and is considered as an apex court because it oversees the functioning of State Commissions and District Forums. The National Commission can entertain all the matters where the value of service or goods exceed ₹ 1 crore.
                     </p>
@@ -110,13 +112,13 @@ export default class Tribunal extends React.Component {
           <div class="cta-div">
             <p class="cta-further-options"><strong>Further options</strong></p>
             <img src="../../media/images/cta-arrow.png" class="cta-arrow"/>
-            <Link to="#" class="cta-button">
+            <Link to="dead" class="cta-button">
               Circuit Benches
             </Link>
-            <Link to="#" class="cta-button">
+            <Link to="dead" class="cta-button">
               Organization Chart
             </Link>
-            <Link to="#" class="cta-button">
+            <Link to="dead" class="cta-button">
               Members of NCDRC
             </Link>
           </div>
