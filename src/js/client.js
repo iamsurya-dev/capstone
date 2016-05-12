@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Router, Route, IndexRoute, hashHistory } from "react-router";
+import createBrowserHistory from 'history/lib/createBrowserHistory';
 
 import Act from "./pages/Act";
 import Case from "./pages/Case";
@@ -18,7 +19,7 @@ import Tribunal from "./pages/Tribunal";
 const app = document.getElementById('app');
 
 ReactDOM.render(
-  <Router history={hashHistory} onUpdate={() => window.scrollTo(0, 0)}>
+  <Router history={createBrowserHistory()} onUpdate={() => window.scrollTo(0, 0)}>
     <Route path="/" component={Layout}>
       <IndexRoute component={Main}></IndexRoute>
       <Route path="help" name="help" component={Help}></Route>
