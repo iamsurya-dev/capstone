@@ -763,10 +763,14 @@ a:hover {
   text-decoration: underline;
 }
 
+
+footer .navbar-nav>li>a:hover {
+  background: none;
+}
 .footer-links:hover {
-  background-color: #d5d5d5;
+  background: none;
 }
 
-.footer-links {
+/*.footer-links {
   background: #d5d5d5;
-}
+}*/
