@@ -774,3 +774,9 @@ footer .navbar-nav>li>a:hover {
 /*.footer-links {
   background: #d5d5d5;
 }*/
+
+
+.acts h2,
+.publications h2 {
+  color: #253494;
+}

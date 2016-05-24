@@ -36,7 +36,7 @@ export default class Help extends React.Component {
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h2>Help Center</h2>
+              <h2><strong>Help Center</strong></h2>
             </div>
           </div>
           <br/>

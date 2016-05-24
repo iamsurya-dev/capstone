@@ -51,6 +51,13 @@ export default class extends React.Component {
             <div class="alert alert-dismissible alert-warning">
               Please make sure to check for bank holidays before deciding to approach the central office.
             </div>
+            <div class="cta-div">
+              <p class="cta-further-options"><strong>Further options</strong></p>
+              <img src="../../media/images/cta-arrow.png" class="cta-arrow"/>
+              <Link to="act" class="cta-button">
+                Refer Forms 
+              </Link>
+            </div>
             </div>
             : null
           }

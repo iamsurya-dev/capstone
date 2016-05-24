@@ -4,7 +4,7 @@ export default class Act extends React.Component {
   render() {
     return (
       <section class="acts">
-        <h4>Acts</h4>
+        <h2><strong>Acts</strong></h2>
         <p>This is the acts page</p>
       </section>
     )
