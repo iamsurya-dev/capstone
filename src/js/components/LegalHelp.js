@@ -9,7 +9,7 @@ export default class extends React.Component {
     }
     this.state = {
       alphabets : alphabets,
-      clicked : "",
+      clicked : "A",
       lettersData : [
           {
             name: "A1",
