@@ -112,7 +112,7 @@ export default class Footer extends React.Component {
                   </Link>
                 </li>
                 <li style={footerItemStyle}>
-                  <Link to="contact" style={footerLinkStyle} class="footer-links">
+                  <Link to="disclaimer" style={footerLinkStyle} class="footer-links">
                     <img src="./media/images/Disclaimer.png" style={iconStyle}/>
                     <br/>
                     <span>Disclaimer</span>
