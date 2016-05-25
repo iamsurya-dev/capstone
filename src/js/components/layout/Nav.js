@@ -37,14 +37,13 @@ export default class Nav extends React.Component {
     const searchNavStyle = {
       marginRight: "-60px",
     }
-    const homeClass = location.pathname.match(/^\/#/) ? "active home-active" : "";
-    const aboutClass = location.pathname.match(/^\/tribunal/) ? "active about-active" : "";
-    const actClass = location.pathname.match(/^\/act/) ? "active act-active" : "";
-    const consumerClass = location.pathname.match(/^\/consumer/) ? "active consumer-active" : "";
-    const caseClass = location.pathname.match(/^\/case/) ? "active case-active" : "";
-    const publicationsClass = location.pathname.match(/^\/publications/) ? "active publications-active" : "";
-    const helpClass = location.pathname.match(/^\/help/) ? "active help-active" : "";
-
+    const homeClass = location.hash.match(/\/\?/) ? "active home-active" : "";
+    const aboutClass = location.hash.match(/\/tribunal/) ? "active about-active" : "";
+    const actClass = location.hash.match(/\/act/) ? "active act-active" : "";
+    const consumerClass = location.hash.match(/\/consumer/) ? "active consumer-active" : "";
+    const caseClass = location.hash.match(/\/case/) ? "active case-active" : "";
+    const publicationsClass = location.hash.match(/\/publications/) ? "active publications-active" : "";
+    const helpClass = location.hash.match(/\/help/) ? "active help-active" : "";
 
 
     return (

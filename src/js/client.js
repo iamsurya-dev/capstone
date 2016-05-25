@@ -20,7 +20,7 @@ import Tribunal from "./pages/Tribunal";
 const app = document.getElementById('app');
 
 ReactDOM.render(
-  <Router history={createBrowserHistory()} onUpdate={() => window.scrollTo(0, 0)}>
+  <Router history={hashHistory} onUpdate={() => window.scrollTo(0, 0)}>
     <Route path="/" component={Layout}>
       <IndexRoute component={Main}></IndexRoute>
       <Route path="help" name="help" component={Help}></Route>

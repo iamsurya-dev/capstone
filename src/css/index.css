@@ -38,6 +38,22 @@ a:hover {
 .nav>li.active {
   font-weight: bold;;
 }
+
+.nav>li.home-active i.fa {
+  /*content: "\25BC";*/
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #253494;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  margin-top: 33px;
+  margin-left: -34px;
+}
+
+
 .nav>li.about-active i.fa {
   /*content: "\25BC";*/
   width: 0;
