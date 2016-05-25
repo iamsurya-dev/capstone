@@ -37,7 +37,14 @@ export default class Nav extends React.Component {
     const searchNavStyle = {
       marginRight: "-60px",
     }
-    const helpClass = location.pathname.match(/^\/help/) ? "active" : "";
+    const homeClass = location.pathname.match(/^\/#/) ? "active home-active" : "";
+    const aboutClass = location.pathname.match(/^\/tribunal/) ? "active about-active" : "";
+    const actClass = location.pathname.match(/^\/act/) ? "active act-active" : "";
+    const consumerClass = location.pathname.match(/^\/consumer/) ? "active consumer-active" : "";
+    const caseClass = location.pathname.match(/^\/case/) ? "active case-active" : "";
+    const publicationsClass = location.pathname.match(/^\/publications/) ? "active publications-active" : "";
+    const helpClass = location.pathname.match(/^\/help/) ? "active help-active" : "";
+
 
 
     return (
@@ -45,26 +52,27 @@ export default class Nav extends React.Component {
             <div class="container" style={navContainerStyle}>
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                  <li>
-                    <Link to="#" onClick={this.toggleCollapse.bind(this)}>Home</Link>
+                  <li class={homeClass}>
+                    <Link to="#" onClick={this.toggleCollapse.bind(this)}>Home<i class="fa"></i></Link>
                   </li>
-                  <li>
-                    <Link to="tribunal" onClick={this.toggleCollapse.bind(this)}>About Us</Link>
+                  <li class={aboutClass}>
+                    <Link to="tribunal" onClick={this.toggleCollapse.bind(this)}>About Us<i class="fa"></i></Link>
                   </li>
-                  <li>
-                    <Link to="act" onClick={this.toggleCollapse.bind(this)}>Related Acts</Link>
+                  <li class={actClass}>
+                    <Link to="act" onClick={this.toggleCollapse.bind(this)}>Related Acts<i class="fa"></i></Link>
                   </li>
-                  <li>
-                    <Link to="consumer" onClick={this.toggleCollapse.bind(this)}>Consumer Rights</Link>
+                  <li class={consumerClass}>
+                    <Link to="consumer" onClick={this.toggleCollapse.bind(this)}>Consumer Rights<i class="fa"></i></Link>
                   </li>
-                  <li>
-                    <Link to="case" onClick={this.toggleCollapse.bind(this)}>Legal Recourse</Link>
+                  <li class={caseClass}>
+                    <Link to="case" onClick={this.toggleCollapse.bind(this)}>Legal Recourse<i class="fa"></i></Link>
                   </li>
-                  <li>
-                    <Link to="publications" onClick={this.toggleCollapse.bind(this)}>Publications</Link>
+                  <li class={publicationsClass}>
+                    <Link to="publications" onClick={this.toggleCollapse.bind(this)}>Publications<i class="fa"></i></Link>
                   </li>
                   <li class={helpClass}>
-                    <Link to="help" onClick={this.toggleCollapse.bind(this)}>Help Center</Link>
+                    <Link to="help" onClick={this.toggleCollapse.bind(this)}>Help Center<i class="fa"></i></Link>
+
                   </li>
                 </ul>
                 <form class="navbar-form navbar-right" style={searchNavStyle} role="search">

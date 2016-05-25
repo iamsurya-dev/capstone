@@ -35,6 +35,94 @@ a:hover {
   color: #ffffff;
 }
 
+.nav>li.active {
+  font-weight: bold;;
+}
+.nav>li.about-active i.fa {
+  /*content: "\25BC";*/
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #253494;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  margin-top: 33px;
+  margin-left: -48px;
+}
+
+.nav>li.act-active i.fa {
+  /*content: "\25BC";*/
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #253494;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  margin-top: 33px;
+  margin-left: -62px;
+}
+
+.nav>li.consumer-active i.fa {
+  /*content: "\25BC";*/
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #253494;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  margin-top: 33px;
+  margin-left: -83px;
+}
+
+.nav>li.case-active i.fa {
+  /*content: "\25BC";*/
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #253494;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  margin-top: 33px;
+  margin-left: -72px;
+}
+
+.nav>li.publications-active i.fa {
+  /*content: "\25BC";*/
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #253494;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  margin-top: 33px;
+  margin-left: -63px;
+}
+
+.nav>li.help-active i.fa {
+  /*content: "\25BC";*/
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #253494;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  margin-top: 33px;
+  margin-left: -58px;
+}
+
+
 /* Main Page */
 
 .links-main {
