@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Router, Route, IndexRoute, hashHistory } from "react-router";
-import createBrowserHistory from 'history/lib/createBrowserHistory';
 
 import Act from "./pages/Act";
 import Case from "./pages/Case";
